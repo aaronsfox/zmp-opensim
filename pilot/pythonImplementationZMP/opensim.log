@@ -1,0 +1,563 @@
+[2023-11-23 10:52:17.884] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'pelvis.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'femur_r.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'tibia_r.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'fibula_r.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'talus_rv.vtp'.
+[2023-11-23 10:52:17.885] [warning] Couldn't find file 'foot.vtp'.
+[2023-11-23 10:52:17.886] [warning] Couldn't find file 'bofoot.vtp'.
+[2023-11-23 10:52:17.886] [warning] Couldn't find file 'femur_l.vtp'.
+[2023-11-23 10:52:17.886] [warning] Couldn't find file 'tibia_l.vtp'.
+[2023-11-23 10:52:17.886] [warning] Couldn't find file 'fibula_l.vtp'.
+[2023-11-23 10:52:17.887] [warning] Couldn't find file 'talus_lv.vtp'.
+[2023-11-23 10:52:17.887] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-11-23 10:52:17.887] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-11-23 10:52:17.888] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-11-23 10:52:17.889] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-11-23 10:52:17.890] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-11-23 10:52:17.891] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-11-23 10:52:17.892] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-11-23 10:52:17.892] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-11-23 10:52:17.892] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-11-23 10:52:46.800] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 10:58:06.540] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 11:06:00.800] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 11:07:01.961] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 11:33:41.568] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 11:37:57.176] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 11:37:57.176] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 11:37:57.176] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 11:37:57.176] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 11:37:57.176] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 11:37:57.176] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 11:37:57.186] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 11:37:57.187] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 11:50:46.374] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 11:50:46.472] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 11:56:11.812] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 11:56:12.594] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 12:05:36.555] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 12:05:36.661] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 12:06:00.396] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 12:06:00.492] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 12:10:08.029] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 12:11:56.522] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 12:12:12.206] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 12:12:12.206] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 12:12:12.206] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 12:12:12.206] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 12:12:12.206] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 12:12:12.206] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 12:12:12.207] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 12:12:12.207] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 12:12:19.804] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 12:12:24.554] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 12:12:30.422] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate subtalar_angle_r is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate mtp_angle_r is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate subtalar_angle_l is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate mtp_angle_l is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate wrist_flex_r is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate wrist_dev_r is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate wrist_flex_l is locked. Unable to change its value.
+[2023-11-23 12:12:30.518] [warning] Coordinate.setValue:  coordinate wrist_dev_l is locked. Unable to change its value.
+[2023-11-23 12:12:37.636] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:34:20.651] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:36:52.679] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:38:16.984] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:39:00.528] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:39:28.123] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:45:20.653] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:45:20.667] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-23 15:45:20.667] [info] Running tool ...
+[2023-11-23 15:45:20.667] [info] No external loads will be applied (external loads file not specified).
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_tilt'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_list'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_rotation'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_tx'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_ty'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_tz'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_flexion_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_adduction_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_rotation_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_flexion_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_adduction_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_rotation_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'lumbar_extension'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'lumbar_bending'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'lumbar_rotation'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'knee_angle_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'knee_angle_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_flex_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_add_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_rot_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_flex_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_add_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_rot_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'ankle_angle_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'ankle_angle_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'elbow_flex_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'elbow_flex_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'subtalar_angle_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'subtalar_angle_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pro_sup_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pro_sup_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'mtp_angle_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'mtp_angle_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_flex_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_dev_r'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_flex_l'. Assuming default value.
+[2023-11-23 15:45:20.726] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_dev_l'. Assuming default value.
+[2023-11-23 15:45:20.789] [info] InverseDynamicsTool: 121 time frames in 62 millisecond(s).
+[2023-11-23 15:46:17.466] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:46:17.481] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-23 15:46:17.481] [info] Running tool ...
+[2023-11-23 15:46:17.481] [info] No external loads will be applied (external loads file not specified).
+[2023-11-23 15:46:17.604] [info] InverseDynamicsTool: 121 time frames in 81 millisecond(s).
+[2023-11-23 15:49:41.007] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:49:41.022] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-23 15:49:41.022] [info] Running tool subject10_scaled...
+[2023-11-23 15:49:41.022] [info] No external loads will be applied (external loads file not specified).
+[2023-11-23 15:49:41.040] [error] IO.OpenInputFile(const string&,openmode mode): failed to open data\subject01_run5_cycle1_mocoKinematics.sto.
+[2023-11-23 15:49:41.040] [error] InverseDynamicsTool Failed: Storage: Failed to open file 'data\subject01_run5_cycle1_mocoKinematics.sto'. Verify that the file exists at the specified location.
+	Thrown at Storage.cpp:185 in Storage().
+[2023-11-23 15:50:45.852] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:50:45.865] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-23 15:50:45.865] [info] Running tool subject10_scaled...
+[2023-11-23 15:50:45.865] [info] No external loads will be applied (external loads file not specified).
+[2023-11-23 15:50:45.938] [info] InverseDynamicsTool: 121 time frames in 33 millisecond(s).
+[2023-11-23 15:55:04.303] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:57:42.701] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 15:59:21.138] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 16:01:26.158] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'sacrum.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'pelvis.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'femur_r.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'tibia_r.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'fibula_r.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'talus_rv.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'foot.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'bofoot.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'femur_l.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'tibia_l.vtp'.
+[2023-11-23 16:01:26.159] [warning] Couldn't find file 'fibula_l.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'talus_lv.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'l_foot.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'hat_spine.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'hat_skull.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'radius_rv.vtp'.
+[2023-11-23 16:01:26.160] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2023-11-23 16:01:26.161] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'radius_lv.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2023-11-23 16:01:26.162] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2023-11-23 16:01:26.163] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2023-11-23 16:01:26.164] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2023-11-23 16:01:26.164] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2023-11-23 16:01:26.164] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2023-11-23 16:01:26.164] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2023-11-23 16:01:26.164] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2023-11-23 16:01:26.164] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2023-11-23 16:01:41.948] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 16:06:06.625] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 16:30:15.418] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 16:40:21.486] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-23 16:41:15.256] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-24 11:04:25.217] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-24 11:04:25.916] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-24 11:04:25.916] [info] Running tool subject10_scaled...
+[2023-11-24 11:04:25.917] [info] No external loads will be applied (external loads file not specified).
+[2023-11-24 11:04:26.000] [info] InverseDynamicsTool: 121 time frames in 33 millisecond(s).
+[2023-11-24 11:28:52.287] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 10:23:40.050] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 10:23:40.710] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-27 10:23:40.710] [info] Running tool subject10_scaled...
+[2023-11-27 10:23:40.710] [info] No external loads will be applied (external loads file not specified).
+[2023-11-27 10:23:40.799] [info] InverseDynamicsTool: 121 time frames in 35 millisecond(s).
+[2023-11-27 10:23:40.867] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 11:36:56.394] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 11:36:56.998] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-27 11:36:56.998] [info] Running tool subject10_scaled...
+[2023-11-27 11:36:56.998] [info] No external loads will be applied (external loads file not specified).
+[2023-11-27 11:36:57.083] [info] InverseDynamicsTool: 121 time frames in 35 millisecond(s).
+[2023-11-27 11:37:07.060] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 14:15:52.820] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 14:19:36.789] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 14:19:36.813] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-27 14:19:36.813] [info] Running tool subject10_scaled...
+[2023-11-27 14:19:36.814] [info] No external loads will be applied (external loads file not specified).
+[2023-11-27 14:19:36.898] [info] InverseDynamicsTool: 121 time frames in 33 millisecond(s).
+[2023-11-27 14:20:04.916] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 14:20:04.929] [cout] [info] 
+               MODEL: subject01_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 64
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-27 14:20:04.929] [info] Running tool subject10_scaled...
+[2023-11-27 14:20:04.929] [info] No external loads will be applied (external loads file not specified).
+[2023-11-27 14:20:05.000] [info] InverseDynamicsTool: 121 time frames in 33 millisecond(s).
+[2023-11-27 14:20:05.069] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 14:24:56.039] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:30:10.509] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:31:35.419] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:31:54.326] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:33:50.507] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:34:29.759] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:35:48.487] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:37:51.218] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:44:06.368] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:45:35.827] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:47:40.738] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 15:48:15.350] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:00:10.268] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:04:15.776] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:13:12.876] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:19:19.053] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:21:37.780] [cout] [info] Exiting visualization.
+[2023-11-27 16:25:08.709] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:38:47.345] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 16:44:51.889] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 17:03:03.839] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 17:06:57.491] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 17:10:23.937] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 19:25:01.414] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-27 19:32:05.885] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-28 16:06:19.405] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-28 16:16:46.251] [info] Loaded model subject01_scaled from file data\subject01_adjusted_scaled.osim
+[2023-11-29 10:04:38.964] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:04:48.676] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:04:54.862] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:04:54.867] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:05:21.811] [error] InverseDynamicsTool Failed: Object: Cannot open file data_cut\subject01_adjusted_scaled.osim. It may not exist or you do not have permission to read it.
+	Thrown at Object.cpp:105 in Object().
+[2023-11-29 10:05:34.325] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:05:34.341] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:05:34.426] [info] Loaded model model from file data_cut\scaledModelAdjusted.osim
+[2023-11-29 10:05:34.662] [cout] [info] 
+               MODEL: model
+         coordinates: 29
+              forces: 95
+           actuators: 83
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 14
+              joints: 14
+         constraints: 2
+             markers: 60
+         controllers: 0
+  contact geometries: 13
+misc modelcomponents: 0
+[2023-11-29 10:05:34.662] [info] Running tool subject10_scaled...
+[2023-11-29 10:05:34.662] [info] No external loads will be applied (external loads file not specified).
+[2023-11-29 10:05:34.679] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:05:34.785] [info] InverseDynamicsTool: 319 time frames in 62 millisecond(s).
+[2023-11-29 10:07:31.161] [info] Loaded model model from file data_cut\scaledModelAdjusted.osim
+[2023-11-29 10:09:21.562] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:09:21.567] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:09:21.597] [info] Loaded model model from file data_cut\processedModel.osim
+[2023-11-29 10:09:21.601] [cout] [info] 
+               MODEL: model
+         coordinates: 29
+              forces: 0
+           actuators: 0
+             muscles: 0
+            analyses: 0
+              probes: 0
+              bodies: 14
+              joints: 14
+         constraints: 2
+             markers: 60
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-11-29 10:09:21.601] [info] Running tool subject10_scaled...
+[2023-11-29 10:09:21.601] [info] No external loads will be applied (external loads file not specified).
+[2023-11-29 10:09:21.604] [info] Storage: read data file = data_cut\rra1_Kinematics_q.sto (nr=319 nc=30)
+[2023-11-29 10:09:21.704] [info] InverseDynamicsTool: 319 time frames in 56 millisecond(s).
+[2023-11-29 10:11:36.642] [info] Loaded model model from file data_cut\processedModel.osim
+[2023-11-29 10:13:39.169] [info] Storage: read data file = data_cut\rra1_states.sto (nr=319 nc=59)
+[2023-11-29 10:24:31.195] [info] Loaded model model from file data_cut\processedModel.osim
+[2024-02-22 15:52:42.860] [info] Loaded model subject01_scaled from file data_run\subject01_adjusted_scaled.osim
+[2024-02-23 09:58:48.506] [info] Loaded model subject01_scaled from file data_run\subject01_adjusted_scaled.osim
