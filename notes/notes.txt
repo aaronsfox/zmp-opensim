@@ -1,0 +1,7 @@
+- Demonstrate implementation in python using opensim interface (i.e. use the realisation steps that are present in the ID tool to calculate body forces based on states). The idea here should be to use as similar code to opensim C++ implementation of these calculations as possible to make it easy to transfer down the track
+
+- Use Hamner Delp running data from quest moco solutions to demo above approach
+
+- ZMP implementation probably requires parameters of the free body in the model, plus some aspect of the ground contact body and knowledge of when it is in contact with the ground (e.g. when a set of points is within a certain distance of the ground plane). Given this, perhaps the ZMP force is inherently connected to contact geometry like a half space?
+
+- Eventually would also want to link it to tracking within a Moco problem. An illustration of it's potential could be to compare the ZMP outputs and computational aspects (e.g. solution times) to those obtained from contact spheres (i.e. the current typical approach). Doing so might demonstrate accuracy, ease of use of speedier solutions.
