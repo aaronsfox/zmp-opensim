@@ -89,9 +89,9 @@ int main() {
     MocoTrajectory mocoTraj = MocoTrajectory("C:\\+GitRepos+\\zmp-opensim\\pilot\\cppImplementationZMP\\subject01_run5_cycle1_mocoSolution.sto");
     StatesTrajectory statesTraj = mocoTraj.exportToStatesTrajectory(osimModel);
 
-    //// In lieu of udot seemingly not working later, create an accelerations table
-    //mocoTraj.generateAccelerationsFromSpeeds();
-    //TimeSeriesTable uDotTable = mocoTraj.exportToAccelerationsTable();
+    // In lieu of udot seemingly not working later, create an accelerations table
+    mocoTraj.generateAccelerationsFromSpeeds();
+    TimeSeriesTable uDotTable = mocoTraj.exportToAccelerationsTable();
 
     // Define number of times from states trajectory
     int nt = mocoTraj.getNumTimes();
@@ -117,32 +117,6 @@ int main() {
 
     // Set the free joint to report body forces for
     string freeJoint = "ground_pelvis";
-
-    //// Create jointset for calculating equivalent body forces
-    //JointSet jointsForEquivalentBodyForces; // TODO: needed...
-
-    //// Get the model joints
-    //JointSet modelJoints = osimModel.getJointSet();
-
-    // Loop through desired body forces and append for reporting
-
-    /* NOTE: there is a problem here, whereby the jointsForEquivalentBodyForces variable is not appending a joint...*/
-
-    //for (int i = 0; i < jointsForReportingBodyForces.getSize(); ++i) {
-
-        /*Note that an 'ALL' option could be included here*/
-
-        //// Get index for joint in model
-        //int k = modelJoints.getIndex(jointsForReportingBodyForces[i]);
-
-        //// Adopt and append if joint identified
-        //if (k >= 0) {
-        //    jointsForEquivalentBodyForces.adoptAndAppend(&modelJoints[k]);
-        //}
-        //else {
-        //    log_warn("Could not find Joint named '{}' to report body forces.", jointsForReportingBodyForces[i]);
-        //}
-    //}
 
     // Get number of joints for reporting (should be just 1 given above implementation)
     //int nj = jointsForEquivalentBodyForces.getSize();
@@ -215,7 +189,17 @@ int main() {
         osimModel.getMultibodySystem().realize(sWorkingCopy, Stage::Dynamics);
 
         // Compute accelerations of current state
-        Vector udot = osimModel.getMatterSubsystem().getUDot(sWorkingCopy);
+        /*NOTE: this getUDot approach seems to produce different results compare
+        to using an entire trajectory???*/
+        //Vector udot = osimModel.getMatterSubsystem().getUDot(sWorkingCopy);
+
+        // Get accelerations from the Moco trajectory to see if this solves the difference results
+        // Vector udot = uDotTable.getRowAtIndex(uDotTable.getNearestRowIndexForTime(s.getTime())).getAsVector();
+        /*NOTE: this approach produces the desired results.*/
+        Vector udot(nq);
+        for (int k = 0; k < nq; k++) {
+            udot.set(k, uDotTable.getRowAtIndex(i).getAnyElt(0, k));
+        }
 
         // Solve inverse dynamics given current states and udot
         // The output vector contains the generalised coordinate forces
@@ -286,19 +270,45 @@ int main() {
             // Formulas come from Xiang et al. (2009), Int J Numer Meth ENg, 79: 667-695.
             Vec3 zmpCOP = Vec3(groundM.get(2) / freeBodyF.get(1), 0, -groundM.get(0) / freeBodyF.get(1));
 
-            // Get the position of the rightand left body origins in the ground
+            // Get the position of the right and left body origins in the ground
             // This will determine which is closer to the predicted COP
-            Vec3 rightBodyPos = osimModel.updBodySet().get(rightBodyName).findStationLocationInGround(s, Vec3(0, 0, 0));
-            Vec3 leftBodyPos = osimModel.updBodySet().get(leftBodyName).findStationLocationInGround(s, Vec3(0, 0, 0));
+            Vec3 rightBodyPos = osimModel.updBodySet().get(rightBodyName).findStationLocationInGround(sWorkingCopy, Vec3(0, 0, 0));
+            Vec3 leftBodyPos = osimModel.updBodySet().get(leftBodyName).findStationLocationInGround(sWorkingCopy, Vec3(0, 0, 0));
 
-            // Calculate distances from body to predicted ZMP
-            double rightBodyDist = pow((rightBodyPos.get(0) - zmpCOP.get(0)), 2) + pow((rightBodyPos.get(1) - zmpCOP.get(1)), 2) + pow((rightBodyPos.get(2) - zmpCOP.get(2)), 2);
-            double leftBodyDist = pow((leftBodyPos.get(0) - zmpCOP.get(0)), 2) + pow((leftBodyPos.get(1) - zmpCOP.get(1)), 2) + pow((leftBodyPos.get(2) - zmpCOP.get(2)), 2);
+            //// Calculate distances from body to predicted ZMP
+            /*TODO: I'm not sure these distance calculations are working correctly...*/
+            //double rightBodyDist = pow((rightBodyPos.get(0) - zmpCOP.get(0)), 2) + pow((rightBodyPos.get(1) - zmpCOP.get(1)), 2) + pow((rightBodyPos.get(2) - zmpCOP.get(2)), 2);
+            //double leftBodyDist = pow((leftBodyPos.get(0) - zmpCOP.get(0)), 2) + pow((leftBodyPos.get(1) - zmpCOP.get(1)), 2) + pow((leftBodyPos.get(2) - zmpCOP.get(2)), 2);
 
-            // Find smaller distance and allocate to appropriate part of ZMP vector
-            // There shouldn't be a need to change the non-used side as they should be zeros
-            //* TODO: edge cases where identical? It won't allocate anything if that happens... *//
-            if (rightBodyDist < leftBodyDist) {
+            //// Find smaller distance and allocate to appropriate part of ZMP vector
+            //// There shouldn't be a need to change the non-used side as they should be zeros
+            ////* TODO: edge cases where identical? It won't allocate anything if that happens... *//
+            //if (rightBodyDist < leftBodyDist) {
+            //    // Right side forces
+            //    zmpVec.set(0, freeBodyF.get(0));
+            //    zmpVec.set(1, freeBodyF.get(1));
+            //    zmpVec.set(2, freeBodyF.get(2));
+            //    // Right side COP
+            //    zmpVec.set(3, zmpCOP.get(0));
+            //    zmpVec.set(4, zmpCOP.get(1));
+            //    zmpVec.set(5, zmpCOP.get(2));
+            //}
+            //else if (leftBodyDist < rightBodyDist) {
+            //    // Left side forces
+            //    zmpVec.set(6, freeBodyF.get(0));
+            //    zmpVec.set(7, freeBodyF.get(1));
+            //    zmpVec.set(8, freeBodyF.get(2));
+            //    // Left side COP
+            //    zmpVec.set(9, zmpCOP.get(0));
+            //    zmpVec.set(10, zmpCOP.get(1));
+            //    zmpVec.set(11, zmpCOP.get(2));
+            //}
+
+            // Take a simpler approach to check results
+            // Simply take whichever body is lower
+            // This would work for running, but not other movements
+            /*This resolves issue...*/
+            if (rightBodyPos.get(1) < leftBodyPos.get(1)) {
                 // Right side forces
                 zmpVec.set(0, freeBodyF.get(0));
                 zmpVec.set(1, freeBodyF.get(1));
@@ -308,7 +318,7 @@ int main() {
                 zmpVec.set(4, zmpCOP.get(1));
                 zmpVec.set(5, zmpCOP.get(2));
             }
-            else if (leftBodyDist < rightBodyDist) {
+            else if (leftBodyPos.get(1) < rightBodyPos.get(1)) {
                 // Left side forces
                 zmpVec.set(6, freeBodyF.get(0));
                 zmpVec.set(7, freeBodyF.get(1));
@@ -350,9 +360,9 @@ int main() {
 	IO::makeDir("outputs");
 
     // Write to file
-    Storage::printResult(&genForcesResults, "manual_genForces", "outputs", -1, ".sto");
-    Storage::printResult(&bodyForcesResults, "manual_bodyForces", "outputs", -1, ".sto");
-    Storage::printResult(&zmpResults, "manual_zmpForces", "outputs", -1, ".sto");
+    Storage::printResult(&genForcesResults, "manualCPP_genForces", "outputs", -1, ".sto");
+    Storage::printResult(&bodyForcesResults, "manualCPP_bodyForces", "outputs", -1, ".sto");
+    Storage::printResult(&zmpResults, "manualCPP_zmpForces", "outputs", -1, ".sto");
 
     // Finish section
     cout << "Results written to file...\n";
