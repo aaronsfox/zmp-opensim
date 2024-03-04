@@ -575,33 +575,37 @@ for sInd in range(nt):
     #Get initial model state to test
     s = statesTraj[sInd]
     
-    #Set modelling options for Actuators to be over-ridden
-    for i in range(osimModel.updForceSet().getSize()):
-        act = osim.ScalarActuator.safeDownCast(osimModel.updForceSet().get(i))
-        act.overrideActuation(sWorkingCopy, True)
+    #### NOTE: this now works like the C++ code does, in that the accelerations
+    #### are there, but they seem incorrect compared to the Moco trajectory...
+    
+    ### Turning forces off may be the issue with udot not working?
+    # #Set modelling options for Actuators to be over-ridden
+    # for i in range(osimModel.updForceSet().getSize()):
+    #     act = osim.ScalarActuator.safeDownCast(osimModel.updForceSet().get(i))
+    #     act.overrideActuation(sWorkingCopy, True)
         
     #Set current states in working copy
     sWorkingCopy.setTime(s.getTime())
     sWorkingCopy.setQ(s.getQ())
     sWorkingCopy.setU(s.getU())
-    # udot = sWorkingCopy.getUDot()
 
     #Realise model to acceleration stage
-    # osimModel.realizeAcceleration(sWorkingCopy)
-    osimModel.realizeDynamics(sWorkingCopy)
+    osimModel.realizeAcceleration(sWorkingCopy)
+    # osimModel.realizeDynamics(s)
+    # osimModel.computeStateVariableDerivatives(sWorkingCopy) #### this just results in zeros...
     
     # #Check if Q's are updated
     # for qi in range(sWorkingCopy.getQ().size()):
     #     print(sWorkingCopy.getQ().get(qi))
     
     #Get accelerations
-    ### NOTE: only seems achievable via Moco trajectory data
-    # udot = sWorkingCopy.getUDot()
-    udot = osim.Vector(nq, 0)
-    for iq in range(nq):
-        udot.set(iq,
-                 uDotTable.getRowAtIndex(uDotTable.getNearestRowIndexForTime(s.getTime())).getElt(0,iq)
-                 )
+    ### NOTE: only seems achievable via Moco trajectory data?
+    udot = sWorkingCopy.getUDot()
+    # udot = osim.Vector(nq, 0)
+    # for iq in range(nq):
+    #     udot.set(iq,
+    #              uDotTable.getRowAtIndex(uDotTable.getNearestRowIndexForTime(s.getTime())).getElt(0,iq)
+    #              )
     # for u in range(udot.size()):
     #     print(udot.get(u))
     
@@ -613,6 +617,7 @@ for sInd in range(nt):
     #### TODO: important that udot order matches the states --- need checks in place for this...
     
     #Solve ID
+    # genForceTraj = ivdSolver.solve(s, udot) # --- using s instead of working copy results in zeros?
     genForceTraj = ivdSolver.solve(sWorkingCopy, udot)
     # genForceTraj = ivdSolver.solve(sWorkingCopy, coordFunctions, s.getTime())
     # for u in range(genForceTraj.size()):
@@ -741,9 +746,12 @@ bodyForcesResults.setName('Inverse Dynamics Body Forces at Specified Joints')
 zmpResults.setName('ZMP Predicted Ground Reaction Forces')
 
 #Write to file
-osim.Storage().printResult(genForcesResults, 'manual_genForces', 'outputs_run', -1, '.sto')
-osim.Storage().printResult(bodyForcesResults, 'manual_bodyForces', 'outputs_run', -1, '.sto')
-osim.Storage().printResult(zmpResults, 'manual_zmpForces', 'outputs_run', -1, '.sto')
+# osim.Storage().printResult(genForcesResults, 'manual_genForces', 'outputs_run', -1, '.sto')
+# osim.Storage().printResult(bodyForcesResults, 'manual_bodyForces', 'outputs_run', -1, '.sto')
+# osim.Storage().printResult(zmpResults, 'manual_zmpForces', 'outputs_run', -1, '.sto')
+osim.Storage().printResult(genForcesResults, 'manual_genForces_getUdot', 'outputs_run', -1, '.sto')
+osim.Storage().printResult(bodyForcesResults, 'manual_bodyForces_getUdot', 'outputs_run', -1, '.sto')
+osim.Storage().printResult(zmpResults, 'manual_zmpForces_getUdot', 'outputs_run', -1, '.sto')
 
 # %% Compare outputs from different approaches
 
