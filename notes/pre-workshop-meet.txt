@@ -1,0 +1,15 @@
+> Probe implementation not really used in OpenSim anymore. Consider developing approach as an output of the model instead
+	>> Output examples: energy of model, centre of mass location, potential energy, linear momentum etc.
+	>> Outputs are available to all tools, hence it seems appropriate to use
+	>> Determine all inputs/outputs for the component etc.
+	
+> How to apply forces back onto model?
+	>> Essentially replace GRFs in any simulations
+
+> MocoGoal?
+	>> ContactTracking may be best exemplar
+		
+> Setting up own OpenSim environment to tinker with changes is a good idea
+
+> Different results from Moco trajectory?
+	>> Prescribed motion aspect of Moco may be causing difference?
