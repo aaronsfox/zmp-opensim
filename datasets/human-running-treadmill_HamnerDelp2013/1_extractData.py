@@ -149,6 +149,64 @@ for subject in subList:
     #Run the scale tool
     scaleTool.run()
     
+    # =========================================================================
+    #     Adjust the model
+    # =========================================================================
+    
+    #Add marker locations underneath foot markers at floor level based on static motion
+    #These may be useful later in determining foot-ground contact points
+    
+    #Set the list of markers to project to the floot
+    floorMarkers = ['RCAL', 'RTOE', 'RMT5',
+                    'LCAL', 'LTOE', 'LMT5']
+    
+    #Load the model
+    scaledModel = osim.Model(f'{subject}_adjusted_scaled.osim')
+    
+    #Load the static motion
+    staticMotion = osim.TimeSeriesTable(f'{subject}_static_output.mot')
+    
+    #Initialise the model state
+    modelState = scaledModel.initSystem()
+    
+    #Set model states from static motion
+    for stateName in staticMotion.getColumnLabels():
+        scaledModel.setStateVariableValue(
+            modelState,
+            stateName,
+            staticMotion.getDependentColumn(stateName).to_numpy()[0])
+        
+    #Realize model to position stage
+    scaledModel.realizePosition(modelState)
+    
+    #Loop through floor markers
+    #Identify position in ground at floor level and translate back to associated body
+    for marker in floorMarkers:
+        
+        #Get marker location in ground        
+        markerInGround = scaledModel.updMarkerSet().get(marker).getLocationInGround(modelState)
+    
+        #Set the y-axis to be zero for the marker in ground position (i.e. floor level)
+        markerInGround.set(1,0)
+        
+        #Translate this new position back to the markers associated body
+        floorMarkerLoc = scaledModel.getGround().findStationLocationInAnotherFrame(
+            modelState, markerInGround, scaledModel.updMarkerSet().get(marker).getParentFrame()
+            )
+        
+        #Create new marker and append to model
+        newMarker = osim.Marker()
+        newMarker.setName(marker+'_ground')
+        newMarker.setParentFrameName(scaledModel.updMarkerSet().get(marker).getParentFrameName())
+        newMarker.set_location(floorMarkerLoc)
+        scaledModel.getMarkerSet().cloneAndAppend(newMarker)
+        
+    #Finalise model connections
+    scaledModel.finalizeConnections()
+    
+    #Print to file
+    scaledModel.printToXML(f'{subject}_adjusted_scaled_floorMarkers.osim')
+    
     #Navigate back to home directory
     os.chdir(homeDir)
     

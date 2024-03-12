@@ -66,3 +66,72 @@
 [2024-02-28 12:16:00.330] [info] Frame at (t = 0.0):	 total squared error = 0.0231795, marker error: RMS = 0.0253747, max = 0.0487008 (LTOE)
 [2024-02-28 12:16:00.330] [info] Moved markers in model subject01_scaled to match locations in marker file 'static.trc'.
 [2024-02-28 12:16:00.358] [info] Wrote model file 'subject01_adjusted_scaled.osim' from model subject01_scaled.
+[2024-03-12 09:25:45.436] [info] Processing subject subject01_scaled...
+[2024-03-12 09:25:45.436] [info] Step 1: Loading generic model
+[2024-03-12 09:25:45.455] [info] Updating Model file from 20001 to latest format...
+[2024-03-12 09:25:45.456] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2024-03-12 09:25:45.456] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2024-03-12 09:25:45.506] [info] Loaded model 3DGaitModelwithSimpleArms from file c:\+GitRepos+\zmp-opensim\datasets\human-running-treadmill_HamnerDelp2013\subject01\model\genericModel.osim
+[2024-03-12 09:25:45.526] [info] Step 2: Scaling generic model
+[2024-03-12 09:25:45.554] [info] Loaded marker file static.trc (64 markers, 397 frames)
+[2024-03-12 09:25:45.554] [info] Measurement 'torso'
+[2024-03-12 09:25:45.554] [info] 	pair 0 (RASI, CLAV): model = 0.439798, experimental = 0.464147
+[2024-03-12 09:25:45.555] [info] 	pair 1 (LASI, CLAV): model = 0.448751, experimental = 0.480354
+[2024-03-12 09:25:45.555] [info] 	pair 2 (LPSI, C7): model = 0.47956, experimental = 0.458517
+[2024-03-12 09:25:45.555] [info] 	pair 3 (RPSI, C7): model = 0.479187, experimental = 0.463826
+[2024-03-12 09:25:45.555] [info] 	pair 4 (RASI, RACR): model = 0.479895, experimental = 0.503069
+[2024-03-12 09:25:45.555] [info] 	pair 5 (LASI, LACR): model = 0.47984, experimental = 0.511833
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.02747
+[2024-03-12 09:25:45.556] [info] Measurement 'pelvis_z'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (RPSI, LPSI): model = 0.109344, experimental = 0.113677
+[2024-03-12 09:25:45.556] [info] 	pair 1 (RASI, LASI): model = 0.2769, experimental = 0.254315
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 0.979028
+[2024-03-12 09:25:45.556] [info] Measurement 'thigh'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (LHJC, LLFC): model = 0.390758, experimental = 0.457586
+[2024-03-12 09:25:45.556] [info] 	pair 1 (LHJC, LMFC): model = 0.397554, experimental = 0.482265
+[2024-03-12 09:25:45.556] [info] 	pair 2 (RHJC, RMFC): model = 0.397556, experimental = 0.442167
+[2024-03-12 09:25:45.556] [info] 	pair 3 (RHJC, RLFC): model = 0.390757, experimental = 0.423643
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.14512
+[2024-03-12 09:25:45.556] [info] Measurement 'shank'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (LLFC, LLMAL): model = 0.409097, experimental = 0.430040
+[2024-03-12 09:25:45.556] [info] 	pair 1 (LMFC, LMMAL): model = 0.383553, experimental = 0.390949
+[2024-03-12 09:25:45.556] [info] 	pair 2 (RLFC, RLMAL): model = 0.409093, experimental = 0.446219
+[2024-03-12 09:25:45.556] [info] 	pair 3 (RMFC, RMMAL): model = 0.383553, experimental = 0.410698
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.058
+[2024-03-12 09:25:45.556] [info] Measurement 'foot'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (LCAL, LMT5): model = 0.175289, experimental = 0.217775
+[2024-03-12 09:25:45.556] [info] 	pair 1 (LCAL, LTOE): model = 0.203735, experimental = 0.238423
+[2024-03-12 09:25:45.556] [info] 	pair 2 (RCAL, RTOE): model = 0.203949, experimental = 0.245907
+[2024-03-12 09:25:45.556] [info] 	pair 3 (RCAL, RMT5): model = 0.173851, experimental = 0.214836
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.21353
+[2024-03-12 09:25:45.556] [info] Measurement 'humerus'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (LSJC, LMEL): model = 0.290346, experimental = 0.32262
+[2024-03-12 09:25:45.556] [info] 	pair 1 (LSJC, LLEL): model = 0.28324, experimental = 0.318907
+[2024-03-12 09:25:45.556] [info] 	pair 2 (RSJC, RLEL): model = 0.28324, experimental = 0.314107
+[2024-03-12 09:25:45.556] [info] 	pair 3 (RSJC, RMEL): model = 0.290346, experimental = 0.311319
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.10457
+[2024-03-12 09:25:45.556] [info] Measurement 'radius_ulna'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (LLEL, LFAradius): model = 0.245845, experimental = 0.268703
+[2024-03-12 09:25:45.556] [info] 	pair 1 (LMEL, LFAulna): model = 0.243053, experimental = 0.272093
+[2024-03-12 09:25:45.556] [info] 	pair 2 (RMEL, RFAulna): model = 0.243053, experimental = 0.266162
+[2024-03-12 09:25:45.556] [info] 	pair 3 (RLEL, RFAradius): model = 0.245845, experimental = 0.280250
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.11187
+[2024-03-12 09:25:45.556] [info] Measurement 'pelvis_Y'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (LPSI, LHJC): model = 0.138558, experimental = 0.150829
+[2024-03-12 09:25:45.556] [info] 	pair 1 (RPSI, RHJC): model = 0.138558, experimental = 0.170855
+[2024-03-12 09:25:45.556] [info] 	pair 2 (RASI, RHJC): model = 0.146682, experimental = 0.12934
+[2024-03-12 09:25:45.556] [info] 	pair 3 (LASI, LHJC): model = 0.145444, experimental = 0.124157
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 1.01427
+[2024-03-12 09:25:45.556] [info] Measurement 'pelvis_X'
+[2024-03-12 09:25:45.556] [info] 	pair 0 (RASI, RPSI): model = 0.186176, experimental = 0.184064
+[2024-03-12 09:25:45.556] [info] 	pair 1 (LASI, LPSI): model = 0.184686, experimental = 0.182276
+[2024-03-12 09:25:45.556] [info] 	overall scale factor = 0.987802
+[2024-03-12 09:25:45.596] [info] Wrote scale file 'subject01_scaleSet_applied.xml' for model subject01_scaled.
+[2024-03-12 09:25:45.596] [info] Step 3: Placing markers on model
+[2024-03-12 09:25:45.634] [info] Loaded marker file static.trc (64 markers, 397 frames)
+[2024-03-12 09:25:45.635] [info] Averaged frames from time 0.0 to 3.96 in static.trc (frames 1 to 397)
+[2024-03-12 09:25:45.635] [info] Deleted 0 unused markers from model subject01_scaled.
+[2024-03-12 09:25:45.798] [info] Frame at (t = 0.0):	 total squared error = 0.0231795, marker error: RMS = 0.0253747, max = 0.0487008 (LTOE)
+[2024-03-12 09:25:45.798] [info] Moved markers in model subject01_scaled to match locations in marker file 'static.trc'.
+[2024-03-12 09:25:45.826] [info] Wrote model file 'subject01_adjusted_scaled.osim' from model subject01_scaled.
+[2024-03-12 09:27:47.937] [info] Loaded model subject01_scaled from file subject01_adjusted_scaled.osim
