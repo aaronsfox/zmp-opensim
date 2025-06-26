@@ -1,0 +1,305 @@
+[2024-03-06 11:42:48.164] [info] Loaded model Rankin2016_Ostrich from file ..\..\models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 11:42:48.176] [warning] ExternalLoads 'externalloads' has subcomponents with duplicate name 'externalforce'. The duplicate is being renamed to 'externalforce_0'.
+[2024-03-06 11:42:48.196] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.196] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.202] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.202] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.213] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.213] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.256] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.256] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.328] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.328] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.354] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.355] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.369] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.369] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.391] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.391] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.405] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.405] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.426] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.426] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.442] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.442] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.462] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.462] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.476] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.476] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.496] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.496] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.509] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.510] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.528] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.528] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.543] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.543] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.562] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.562] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.575] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.575] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.594] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.594] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.606] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.607] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.625] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.625] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.639] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.639] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.661] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.661] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.676] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.676] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.849] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.849] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.862] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.862] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.880] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.880] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.895] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:48.895] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.807] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.807] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.821] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.821] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.844] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.844] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.860] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.861] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.871] [info] ========================================================================
+[2024-03-06 11:42:54.871] [info] MocoCasADiSolver starting.
+[2024-03-06 11:42:54.871] [info] Wed Mar  6 11:42:54 2024
+[2024-03-06 11:42:54.871] [info] ------------------------------------------------------------------------
+[2024-03-06 11:42:54.871] [cout] [info] Costs: (total: 2)
+[2024-03-06 11:42:54.871] [cout] [info]   state_tracking. MocoStateTrackingGoal, enabled: true, mode: cost, weight: 1.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_tilt/value, weight: 750.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_list/value, weight: 250.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_rotation/value, weight: 50.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_tx/value, weight: 25.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_ty/value, weight: 100.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_tz/value, weight: 25.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_hip/R_hip_extension/value, weight: 75.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_hip/R_hip_abduction/value, weight: 50.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_hip/R_hip_rotation/value, weight: 10.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee/R_knee_angle/value, weight: 10.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee/R_knee_varus/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee/R_knee_rotation/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_ankle/R_ankle_angle/value, weight: 10.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_ankle/R_ankle_abduction/value, weight: 0.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_ankle/R_ankle_rotation/value, weight: 0.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_mtp/R_mtp_angle/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_mtp/R_mtp_abduction/value, weight: 0.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_mtp/R_mtp_rotation/value, weight: 0.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/L_hip/L_hip_extension/value, weight: 75.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/L_hip/L_hip_abduction/value, weight: 50.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/L_hip/L_hip_rotation/value, weight: 10.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee_0/L_knee_angle/value, weight: 10.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee_0/L_knee_varus/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee_0/L_knee_rotation/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/L_ankle/L_ankle_angle/value, weight: 10.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/L_ankle/L_ankle_abduction/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/L_mtp/L_mtp_angle/value, weight: 5.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_tilt/speed, weight: 7.5
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_list/speed, weight: 2.5
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_rotation/speed, weight: 0.5
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_tx/speed, weight: 0.25
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_ty/speed, weight: 1.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/pelvis/pelvis_tz/speed, weight: 0.25
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_hip/R_hip_extension/speed, weight: 0.75
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_hip/R_hip_abduction/speed, weight: 0.5
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_hip/R_hip_rotation/speed, weight: 0.1
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee/R_knee_angle/speed, weight: 0.1
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee/R_knee_varus/speed, weight: 0.05
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/knee/R_knee_rotation/speed, weight: 0.05
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_ankle/R_ankle_angle/speed, weight: 0.1
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_ankle/R_ankle_abduction/speed, weight: 0.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_ankle/R_ankle_rotation/speed, weight: 0.0
+[2024-03-06 11:42:54.871] [cout] [info]         state: /jointset/R_mtp/R_mtp_angle/speed, weight: 0.05
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/R_mtp/R_mtp_abduction/speed, weight: 0.0
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/R_mtp/R_mtp_rotation/speed, weight: 0.0
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/L_hip/L_hip_extension/speed, weight: 0.75
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/L_hip/L_hip_abduction/speed, weight: 0.5
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/L_hip/L_hip_rotation/speed, weight: 0.1
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/knee_0/L_knee_angle/speed, weight: 0.1
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/knee_0/L_knee_varus/speed, weight: 0.05
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/knee_0/L_knee_rotation/speed, weight: 0.05
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/L_ankle/L_ankle_angle/speed, weight: 0.1
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/L_ankle/L_ankle_abduction/speed, weight: 0.05
+[2024-03-06 11:42:54.872] [cout] [info]         state: /jointset/L_mtp/L_mtp_angle/speed, weight: 0.05
+[2024-03-06 11:42:54.872] [cout] [info]   control_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_hip_ext, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_hip_abd, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_hip_rot, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_knee_ext, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_knee_var, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_knee_rot, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_ankle_ext, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_ankle_abd, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_mtp_ext, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/pelvis_tx_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/pelvis_ty_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/pelvis_tz_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/pelvis_tilt_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/pelvis_list_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/pelvis_rotation_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_hip_extension_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_hip_abduction_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_hip_rotation_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_knee_angle_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_knee_varus_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_knee_rotation_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_ankle_angle_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/R_mtp_angle_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_hip_extension_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_hip_abduction_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_hip_rotation_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_knee_angle_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_knee_varus_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_knee_rotation_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_ankle_angle_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_ankle_abduction_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info]         control: /forceset/L_mtp_angle_actuator, weight: 1.0
+[2024-03-06 11:42:54.872] [cout] [info] Endpoint constraints: none
+[2024-03-06 11:42:54.872] [cout] [info] Kinematic constraints: (total: 4)
+[2024-03-06 11:42:54.872] [cout] [info]   kinematic_constraint_cid19. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2024-03-06 11:42:54.872] [cout] [info]   kinematic_constraint_cid21. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2024-03-06 11:42:54.872] [cout] [info]   kinematic_constraint_cid26. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2024-03-06 11:42:54.872] [cout] [info]   kinematic_constraint_cid28. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2024-03-06 11:42:54.872] [cout] [info] Path constraints: none
+[2024-03-06 11:42:54.872] [cout] [info] States: (total: 54)
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/R_mtp/R_mtp_abduction/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_tilt/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_list/value. bounds: [-1.74533, 1.74533]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_rotation/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_list/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_tx/value. bounds: [-5, 5]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_tx/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/R_ankle/R_ankle_angle/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_ty/value. bounds: [-1, 1]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/pelvis/pelvis_ty/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.872] [cout] [info]   /jointset/knee_0/L_knee_rotation/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/pelvis/pelvis_tz/value. bounds: [-2, 2]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee_0/L_knee_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/pelvis/pelvis_tz/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_hip/R_hip_extension/value. bounds: [-1.13446, 1.13446]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_hip/R_hip_extension/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_hip/R_hip_abduction/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_hip/R_hip_abduction/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_hip/R_hip_rotation/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_hip/R_hip_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee/R_knee_varus/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee/R_knee_angle/value. bounds: [-3.14159, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee/R_knee_angle/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee/R_knee_varus/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_ankle/L_ankle_angle/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee/R_knee_rotation/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee/R_knee_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_ankle/R_ankle_angle/value. bounds: [-0.174533, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_mtp/L_mtp_angle/value. bounds: [-3.14159, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_ankle/R_ankle_abduction/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_mtp/L_mtp_angle/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_ankle/R_ankle_abduction/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_ankle/R_ankle_rotation/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_ankle/R_ankle_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_ankle/L_ankle_abduction/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_mtp/R_mtp_angle/value. bounds: [-3.14159, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_ankle/L_ankle_abduction/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_mtp/R_mtp_angle/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_mtp/R_mtp_abduction/value. bounds: [-3.14159, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_mtp/R_mtp_rotation/value. bounds: [-3.14159, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/R_mtp/R_mtp_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee_0/L_knee_varus/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_hip/L_hip_abduction/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_hip/L_hip_extension/value. bounds: [-1.13446, 1.13446]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee_0/L_knee_varus/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee_0/L_knee_angle/value. bounds: [-3.14159, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_hip/L_hip_extension/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_hip/L_hip_abduction/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_hip/L_hip_rotation/value. bounds: [-0.785398, 0.785398]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_hip/L_hip_rotation/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/knee_0/L_knee_angle/speed. bounds: [-50, 50]
+[2024-03-06 11:42:54.873] [cout] [info]   /jointset/L_ankle/L_ankle_angle/value. bounds: [-0.174533, 3.14159]
+[2024-03-06 11:42:54.873] [cout] [info] Controls: (total: 32)
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_hip_ext. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_hip_abd. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/pelvis_tx_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_hip_rot. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_knee_ext. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/R_knee_varus_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_knee_var. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_knee_rot. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_ankle_ext. bounds: [-inf, inf]
+[2024-03-06 11:42:54.873] [cout] [info]   /forceset/L_ankle_abd. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_hip_abduction_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/pelvis_list_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_mtp_ext. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/pelvis_ty_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/pelvis_tz_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/pelvis_tilt_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_knee_varus_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_hip_abduction_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/pelvis_rotation_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_ankle_angle_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_hip_extension_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_hip_rotation_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_ankle_angle_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_knee_angle_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_knee_rotation_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/R_mtp_angle_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_mtp_angle_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_hip_extension_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_hip_rotation_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_knee_angle_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_knee_rotation_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info]   /forceset/L_ankle_abduction_actuator. bounds: [-inf, inf]
+[2024-03-06 11:42:54.874] [cout] [info] Parameters: none
+[2024-03-06 11:42:54.889] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.889] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.903] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.903] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.927] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.927] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.943] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.943] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.966] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.966] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.983] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:54.983] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.006] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.006] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.025] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.025] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.051] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.051] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.066] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.066] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.089] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.089] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.103] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.103] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.127] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.127] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.141] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.141] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.163] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.163] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.178] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.178] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 11:42:55.188] [info] Number of threads: 8
+[2024-03-06 12:15:18.570] [info] Set log level to Info.
+[2024-03-06 12:15:18.580] [info] ------------------------------------------------------------------------
+[2024-03-06 12:15:18.580] [info] Elapsed real time: 1944 second(s) (32 minute(s), 24 second(s)).
+[2024-03-06 12:15:18.580] [info] Wed Mar  6 12:15:18 2024
+[2024-03-06 12:15:18.580] [info] MocoCasADiSolver succeeded!
+[2024-03-06 12:15:18.580] [info] ========================================================================
+[2024-03-06 12:28:24.071] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 12:28:24.071] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 12:28:24.074] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-06 12:28:24.075] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-06 12:28:24.075] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-06 12:28:24.075] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-06 12:28:24.124] [info] ExternalForce::externalforce Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 12:28:24.124] [info] ExternalForce::externalforce_0 Data source being set to Ostrich_Running_GRF_Data
+[2024-03-06 12:28:37.363] [cout] [info] Exiting visualization.

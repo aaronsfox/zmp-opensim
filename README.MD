@@ -1,4 +1,4 @@
-# Integrating Zero Moment Point estimates of ground reaction force into OpenSim
+# Applications of the zero moment point in estimating ground reactions during dynamic simulations of movement
 
 Placeholder readme for repo.
 

@@ -1,0 +1,208 @@
+[2023-02-27 16:34:28.471] [info] Processing subject subject01_scaled...
+[2023-02-27 16:34:28.472] [info] Step 1: Loading generic model
+[2023-02-27 16:34:28.509] [info] Updating Model file from 20001 to latest format...
+[2023-02-27 16:34:28.509] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-02-27 16:34:28.509] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-02-27 16:34:28.568] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-02-27 16:34:28.608] [info] Step 2: Scaling generic model
+[2023-02-27 16:34:28.710] [info] Loaded marker file static.trc (64 markers, 397 frames)
+[2023-02-27 16:34:28.710] [info] Measurement 'torso'
+[2023-02-27 16:34:28.710] [info] 	pair 0 (RASI, CLAV): model = 0.439798, experimental = 0.464147
+[2023-02-27 16:34:28.712] [info] 	pair 1 (LASI, CLAV): model = 0.448751, experimental = 0.480354
+[2023-02-27 16:34:28.712] [info] 	pair 2 (LPSI, C7): model = 0.47956, experimental = 0.458517
+[2023-02-27 16:34:28.712] [info] 	pair 3 (RPSI, C7): model = 0.479187, experimental = 0.463826
+[2023-02-27 16:34:28.712] [info] 	pair 4 (RASI, RACR): model = 0.479895, experimental = 0.503069
+[2023-02-27 16:34:28.712] [info] 	pair 5 (LASI, LACR): model = 0.47984, experimental = 0.511833
+[2023-02-27 16:34:28.712] [info] 	overall scale factor = 1.02747
+[2023-02-27 16:34:28.712] [info] Measurement 'pelvis_z'
+[2023-02-27 16:34:28.712] [info] 	pair 0 (RPSI, LPSI): model = 0.109344, experimental = 0.113677
+[2023-02-27 16:34:28.713] [info] 	pair 1 (RASI, LASI): model = 0.2769, experimental = 0.254315
+[2023-02-27 16:34:28.713] [info] 	overall scale factor = 0.979028
+[2023-02-27 16:34:28.713] [info] Measurement 'thigh'
+[2023-02-27 16:34:28.713] [info] 	pair 0 (LHJC, LLFC): model = 0.390758, experimental = 0.457586
+[2023-02-27 16:34:28.713] [info] 	pair 1 (LHJC, LMFC): model = 0.397554, experimental = 0.482265
+[2023-02-27 16:34:28.713] [info] 	pair 2 (RHJC, RMFC): model = 0.397556, experimental = 0.442167
+[2023-02-27 16:34:28.713] [info] 	pair 3 (RHJC, RLFC): model = 0.390757, experimental = 0.423643
+[2023-02-27 16:34:28.713] [info] 	overall scale factor = 1.14512
+[2023-02-27 16:34:28.713] [info] Measurement 'shank'
+[2023-02-27 16:34:28.713] [info] 	pair 0 (LLFC, LLMAL): model = 0.409097, experimental = 0.430040
+[2023-02-27 16:34:28.713] [info] 	pair 1 (LMFC, LMMAL): model = 0.383553, experimental = 0.390949
+[2023-02-27 16:34:28.713] [info] 	pair 2 (RLFC, RLMAL): model = 0.409093, experimental = 0.446219
+[2023-02-27 16:34:28.713] [info] 	pair 3 (RMFC, RMMAL): model = 0.383553, experimental = 0.410698
+[2023-02-27 16:34:28.713] [info] 	overall scale factor = 1.058
+[2023-02-27 16:34:28.713] [info] Measurement 'foot'
+[2023-02-27 16:34:28.713] [info] 	pair 0 (LCAL, LMT5): model = 0.175289, experimental = 0.217775
+[2023-02-27 16:34:28.713] [info] 	pair 1 (LCAL, LTOE): model = 0.203735, experimental = 0.238423
+[2023-02-27 16:34:28.713] [info] 	pair 2 (RCAL, RTOE): model = 0.203949, experimental = 0.245907
+[2023-02-27 16:34:28.713] [info] 	pair 3 (RCAL, RMT5): model = 0.173851, experimental = 0.214836
+[2023-02-27 16:34:28.713] [info] 	overall scale factor = 1.21353
+[2023-02-27 16:34:28.713] [info] Measurement 'humerus'
+[2023-02-27 16:34:28.713] [info] 	pair 0 (LSJC, LMEL): model = 0.290346, experimental = 0.32262
+[2023-02-27 16:34:28.713] [info] 	pair 1 (LSJC, LLEL): model = 0.28324, experimental = 0.318907
+[2023-02-27 16:34:28.713] [info] 	pair 2 (RSJC, RLEL): model = 0.28324, experimental = 0.314107
+[2023-02-27 16:34:28.713] [info] 	pair 3 (RSJC, RMEL): model = 0.290346, experimental = 0.311319
+[2023-02-27 16:34:28.714] [info] 	overall scale factor = 1.10457
+[2023-02-27 16:34:28.714] [info] Measurement 'radius_ulna'
+[2023-02-27 16:34:28.714] [info] 	pair 0 (LLEL, LFAradius): model = 0.245845, experimental = 0.268703
+[2023-02-27 16:34:28.714] [info] 	pair 1 (LMEL, LFAulna): model = 0.243053, experimental = 0.272093
+[2023-02-27 16:34:28.714] [info] 	pair 2 (RMEL, RFAulna): model = 0.243053, experimental = 0.266162
+[2023-02-27 16:34:28.714] [info] 	pair 3 (RLEL, RFAradius): model = 0.245845, experimental = 0.280250
+[2023-02-27 16:34:28.714] [info] 	overall scale factor = 1.11187
+[2023-02-27 16:34:28.714] [info] Measurement 'pelvis_Y'
+[2023-02-27 16:34:28.714] [info] 	pair 0 (LPSI, LHJC): model = 0.138558, experimental = 0.150829
+[2023-02-27 16:34:28.714] [info] 	pair 1 (RPSI, RHJC): model = 0.138558, experimental = 0.170855
+[2023-02-27 16:34:28.714] [info] 	pair 2 (RASI, RHJC): model = 0.146682, experimental = 0.12934
+[2023-02-27 16:34:28.714] [info] 	pair 3 (LASI, LHJC): model = 0.145444, experimental = 0.124157
+[2023-02-27 16:34:28.714] [info] 	overall scale factor = 1.01427
+[2023-02-27 16:34:28.714] [info] Measurement 'pelvis_X'
+[2023-02-27 16:34:28.714] [info] 	pair 0 (RASI, RPSI): model = 0.186176, experimental = 0.184064
+[2023-02-27 16:34:28.714] [info] 	pair 1 (LASI, LPSI): model = 0.184686, experimental = 0.182276
+[2023-02-27 16:34:28.714] [info] 	overall scale factor = 0.987802
+[2023-02-27 16:34:28.794] [info] Wrote scale file 'subject01_scaleSet_applied.xml' for model subject01_scaled.
+[2023-02-27 16:34:28.794] [info] Step 3: Placing markers on model
+[2023-02-27 16:34:28.870] [info] Loaded marker file static.trc (64 markers, 397 frames)
+[2023-02-27 16:34:28.870] [info] Averaged frames from time 0.0 to 3.96 in static.trc (frames 1 to 397)
+[2023-02-27 16:34:28.870] [info] Deleted 0 unused markers from model subject01_scaled.
+[2023-02-27 16:34:29.068] [info] Frame at (t = 0.0):	 total squared error = 0.0231795, marker error: RMS = 0.0253747, max = 0.0487008 (LTOE)
+[2023-02-27 16:34:29.068] [info] Moved markers in model subject01_scaled to match locations in marker file 'static.trc'.
+[2023-02-27 16:34:29.103] [info] Wrote model file 'subject01_adjusted_scaled.osim' from model subject01_scaled.
+[2023-02-27 16:34:30.434] [info] Processing subject subject02_scaled...
+[2023-02-27 16:34:30.434] [info] Step 1: Loading generic model
+[2023-02-27 16:34:30.477] [info] Updating Model file from 20200 to latest format...
+[2023-02-27 16:34:30.478] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-02-27 16:34:30.478] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-02-27 16:34:30.539] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-02-27 16:34:30.578] [info] Step 2: Scaling generic model
+[2023-02-27 16:34:30.655] [info] Loaded marker file static.trc (64 markers, 239 frames)
+[2023-02-27 16:34:30.656] [info] Measurement 'torso'
+[2023-02-27 16:34:30.656] [info] 	pair 0 (LACR, LASI): model = 0.516059, experimental = 0.520631
+[2023-02-27 16:34:30.656] [info] 	pair 1 (RACR, RASI): model = 0.516059, experimental = 0.510820
+[2023-02-27 16:34:30.656] [info] 	pair 2 (CLAV, RASI): model = 0.464983, experimental = 0.457387
+[2023-02-27 16:34:30.656] [info] 	pair 3 (CLAV, LASI): model = 0.4727, experimental = 0.481106
+[2023-02-27 16:34:30.656] [info] 	pair 4 (RASI, C7): model = 0.536899, experimental = 0.536759
+[2023-02-27 16:34:30.656] [info] 	pair 5 (LASI, C7): model = 0.537023, experimental = 0.548964
+[2023-02-27 16:34:30.656] [info] 	overall scale factor = 1.00369
+[2023-02-27 16:34:30.656] [info] Measurement 'pelvis_z'
+[2023-02-27 16:34:30.656] [info] 	pair 0 (RPSI, LPSI): model = 0.0895987, experimental = 0.0840734
+[2023-02-27 16:34:30.656] [info] 	pair 1 (RASI, LASI): model = 0.230620, experimental = 0.263449
+[2023-02-27 16:34:30.656] [info] 	overall scale factor = 1.04034
+[2023-02-27 16:34:30.656] [info] Measurement 'thigh'
+[2023-02-27 16:34:30.656] [info] 	pair 0 (LHJC, LLFC): model = 0.398265, experimental = 0.480616
+[2023-02-27 16:34:30.656] [info] 	pair 1 (LHJC, LMFC): model = 0.400991, experimental = 0.489019
+[2023-02-27 16:34:30.656] [info] 	pair 2 (RHJC, RMFC): model = 0.400993, experimental = 0.508473
+[2023-02-27 16:34:30.656] [info] 	pair 3 (RHJC, RLFC): model = 0.398264, experimental = 0.492452
+[2023-02-27 16:34:30.656] [info] 	overall scale factor = 1.23271
+[2023-02-27 16:34:30.656] [info] Measurement 'shank'
+[2023-02-27 16:34:30.656] [info] 	pair 0 (LLFC, LLMAL): model = 0.401934, experimental = 0.439528
+[2023-02-27 16:34:30.656] [info] 	pair 1 (LMFC, LMMAL): model = 0.387245, experimental = 0.425634
+[2023-02-27 16:34:30.656] [info] 	pair 2 (RLFC, RLMAL): model = 0.401934, experimental = 0.427063
+[2023-02-27 16:34:30.656] [info] 	pair 3 (RMFC, RMMAL): model = 0.387248, experimental = 0.403243
+[2023-02-27 16:34:30.656] [info] 	overall scale factor = 1.07412
+[2023-02-27 16:34:30.656] [info] Measurement 'foot'
+[2023-02-27 16:34:30.656] [info] 	pair 0 (LCAL, LMT5): model = 0.175289, experimental = 0.200804
+[2023-02-27 16:34:30.656] [info] 	pair 1 (LCAL, LTOE): model = 0.221373, experimental = 0.231258
+[2023-02-27 16:34:30.657] [info] 	pair 2 (RCAL, RTOE): model = 0.221818, experimental = 0.222391
+[2023-02-27 16:34:30.657] [info] 	pair 3 (RCAL, RMT5): model = 0.173851, experimental = 0.200083
+[2023-02-27 16:34:30.657] [info] 	overall scale factor = 1.08592
+[2023-02-27 16:34:30.657] [info] Measurement 'humerus'
+[2023-02-27 16:34:30.657] [info] 	pair 0 (RPSH, RLEL): model = 0.284159, experimental = 0.335049
+[2023-02-27 16:34:30.657] [info] 	pair 1 (RASH, RMEL): model = 0.286659, experimental = 0.337365
+[2023-02-27 16:34:30.657] [info] 	pair 2 (LASH, LMEL): model = 0.286764, experimental = 0.35735
+[2023-02-27 16:34:30.657] [info] 	pair 3 (LPSH, LLEL): model = 0.286108, experimental = 0.316493
+[2023-02-27 16:34:30.657] [info] 	pair 4 (LACR, LMEL): model = 0.334653, experimental = 0.361523
+[2023-02-27 16:34:30.657] [info] 	pair 5 (LACR, LLEL): model = 0.330538, experimental = 0.344539
+[2023-02-27 16:34:30.657] [info] 	pair 6 (RACR, RLEL): model = 0.330631, experimental = 0.347492
+[2023-02-27 16:34:30.657] [info] 	pair 7 (RACR, RMEL): model = 0.334582, experimental = 0.352218
+[2023-02-27 16:34:30.657] [info] 	overall scale factor = 1.11683
+[2023-02-27 16:34:30.657] [info] Measurement 'radius_ulna'
+[2023-02-27 16:34:30.657] [info] 	pair 0 (LLEL, LFAradius): model = 0.253018, experimental = 0.279167
+[2023-02-27 16:34:30.657] [info] 	pair 1 (LMEL, LFAulna): model = 0.250168, experimental = 0.293885
+[2023-02-27 16:34:30.657] [info] 	pair 2 (RMEL, RFAulna): model = 0.250060, experimental = 0.291794
+[2023-02-27 16:34:30.657] [info] 	pair 3 (RLEL, RFAradius): model = 0.252955, experimental = 0.284185
+[2023-02-27 16:34:30.657] [info] 	overall scale factor = 1.14212
+[2023-02-27 16:34:30.657] [info] Measurement 'pelvis_X'
+[2023-02-27 16:34:30.657] [info] 	pair 0 (RASI, RPSI): model = 0.182997, experimental = 0.205401
+[2023-02-27 16:34:30.657] [info] 	pair 1 (LASI, LPSI): model = 0.183827, experimental = 0.205050
+[2023-02-27 16:34:30.657] [info] 	overall scale factor = 1.11894
+[2023-02-27 16:34:30.657] [info] Measurement 'shank_width'
+[2023-02-27 16:34:30.657] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0960496, experimental = 0.0807055
+[2023-02-27 16:34:30.657] [info] 	pair 1 (RMMAL, RLMAL): model = 0.0960515, experimental = 0.081195
+[2023-02-27 16:34:30.657] [info] 	overall scale factor = 0.842788
+[2023-02-27 16:34:30.739] [info] Wrote scale file 'subject02_scaleSet_applied.xml' for model subject02_scaled.
+[2023-02-27 16:34:30.739] [info] Step 3: Placing markers on model
+[2023-02-27 16:34:30.789] [info] Loaded marker file static.trc (64 markers, 239 frames)
+[2023-02-27 16:34:30.790] [info] Averaged frames from time 0.0 to 1.98333 in static.trc (frames 1 to 239)
+[2023-02-27 16:34:30.790] [info] Deleted 0 unused markers from model subject02_scaled.
+[2023-02-27 16:34:30.960] [info] Frame at (t = 0.0):	 total squared error = 0.0195653, marker error: RMS = 0.0233127, max = 0.0520796 (RMFC)
+[2023-02-27 16:34:30.960] [info] Moved markers in model subject02_scaled to match locations in marker file 'static.trc'.
+[2023-02-27 16:34:31.000] [info] Wrote model file 'subject02_adjusted_scaled.osim' from model subject02_scaled.
+[2023-08-15 15:51:24.053] [info] Updating Model file from 20001 to latest format...
+[2023-08-15 15:51:24.055] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-15 15:51:24.055] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-15 15:51:24.105] [info] Loaded model 3DGaitModelwithSimpleArms from file C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\genericModel.osim
+[2023-08-15 16:25:16.536] [info] Loaded model subject01_scaled from file C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\subject01_adjusted_scaled.osim
+[2023-08-15 16:25:31.522] [info] Storage: read data file = C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\subject01_static_output.mot (nr=1 nc=259)
+[2023-08-16 16:38:22.868] [info] Updating Model file from 20001 to latest format...
+[2023-08-16 16:38:22.869] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:38:22.869] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:38:22.919] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:47.007] [info] Updating Model file from 20001 to latest format...
+[2023-08-16 16:39:47.008] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:47.008] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:47.059] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:47.182] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:47.182] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:47.182] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:47.238] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:47.348] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:47.349] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:47.349] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:47.404] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:47.518] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:47.518] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:47.518] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:47.572] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:47.697] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:47.698] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:47.698] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:47.749] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:47.881] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:47.882] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:47.882] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:47.931] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:48.044] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:48.045] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:48.045] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:48.094] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:48.211] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:48.212] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:48.212] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:48.262] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:48.383] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:48.383] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:48.383] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:48.433] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-16 16:39:48.543] [info] Updating Model file from 20200 to latest format...
+[2023-08-16 16:39:48.544] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-16 16:39:48.544] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-16 16:39:48.597] [info] Loaded model 3DGaitModelwithSimpleArms from file ..\..\model\genericModel.osim
+[2023-08-17 15:17:28.229] [info] Updating Model file from 20001 to latest format...
+[2023-08-17 15:17:28.230] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-08-17 15:17:28.231] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-08-17 15:17:28.286] [info] Loaded model 3DGaitModelwithSimpleArms from file C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\genericModel.osim
+[2024-09-16 09:59:22.561] [info] Updating Model file from 20001 to latest format...
+[2024-09-16 09:59:22.643] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2024-09-16 09:59:22.643] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2024-09-16 09:59:22.701] [info] Loaded model 3DGaitModelwithSimpleArms from file C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\genericModel.osim
+[2024-09-16 09:59:48.323] [info] Storage: read data file = C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\moco\run5\Run_5_coordinates.sto (nr=393 nc=164)
+[2024-09-16 10:02:04.923] [info] Updating Model file from 40000 to latest format...
+[2024-09-16 10:02:04.940] [info] Loaded model Wrist_Model from file C:\OpenSim 4.5\Resources\Models\WristModel\wrist.osim
+[2024-09-16 10:03:50.106] [info] Updating Model file from 20001 to latest format...
+[2024-09-16 10:03:50.106] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2024-09-16 10:03:50.106] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2024-09-16 10:03:50.164] [info] Loaded model 3DGaitModelwithSimpleArms from file C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\genericModel.osim
+[2024-09-16 10:03:57.024] [info] Updating Model file from 40000 to latest format...
+[2024-09-16 10:03:57.047] [info] Loaded model subject01_scaled from file C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\model\subject01_adjusted_scaled.osim
+[2024-09-16 10:04:19.609] [info] Storage: read data file = C:\+GitRepos+\dynamic-consistency-quest\data\HamnerDelp2013\subject01\moco\run5\Run_5_coordinates.sto (nr=393 nc=164)
+[2025-01-17 13:48:48.934] [info] Updating Model file from 40000 to latest format...
+[2025-01-17 13:48:49.111] [info] Loaded model subject01_scaled from file C:\+GitRepos+\zmp-opensim\datasets\HamnerDelp2013\data\subject01\model\subject01_adjusted_scaled.osim

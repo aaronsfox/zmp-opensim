@@ -1,0 +1,31 @@
+<ZeroMomentPointGroundReactions name="default">
+	<!--List of components that this component owns and serializes.-->
+	<components />
+	<!--Metabolic parameters for each muscle.-->
+	<contact_body>
+		<ZeroMomentPointGroundReactions_ContactBody name="calcn_r_contact">
+			<!--List of components that this component owns and serializes.-->
+            <components>
+				<Station name="station">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/calcn_r</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>1 1 1</location>
+				</Station>
+			</components>
+			<!--Path to a Component that satisfies the Socket 'body' of type PhysicalFrame (description: The body to which the ZeroMomentPointGroundReactions is connected to for identifying contact.).-->
+            <socket_frame>/bodyset/calcn_l</socket_frame>
+		</ZeroMomentPointGroundReactions_ContactBody>
+		<ZeroMomentPointGroundReactions_ContactBody name="calcn_l">
+			<!--List of components that this component owns and serializes.-->
+            <components />
+			<!--Path to a Component that satisfies the Socket 'body' of type PhysicalFrame (description: The body to which the ZeroMomentPointGroundReactions is connected to for identifying contact.).-->
+            <socket_frame>/bodyset/calcn_l</socket_frame>
+		</ZeroMomentPointGroundReactions_ContactBody>
+	</contact_body>
+	<!--Name of the free joint in the model (i.e. the joint connected to the ground frame). This is used to calculate the free body forces.-->
+	<free_joint>/jointset/ground_pelvis</free_joint>
+	<!--Vertical force threshold for specifying when ground contact has occurred and subsequently when forces would be applied.-->
+	<force_threshold> 50 </force_threshold>
+</ZeroMomentPointGroundReactions>
+

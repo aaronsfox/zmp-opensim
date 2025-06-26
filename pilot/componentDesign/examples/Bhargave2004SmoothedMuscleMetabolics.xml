@@ -1,0 +1,55 @@
+<Bhargava2004SmoothedMuscleMetabolics name="metabolic_cost">
+	 <!--List of components that this component owns and serializes.-->
+	 <components />
+	 <!--Metabolic parameters for each muscle.-->
+	 <muscle_parameters>
+        <Bhargava2004SmoothedMuscleMetabolics_MuscleParameters name="hamstrings_r">
+            <!--List of components that this component owns and serializes.-->
+            <components />
+            <!--Path to a Component that satisfies the Socket 'muscle' of type Muscle (description: The muscle to which the Bhargava2004SmoothedMuscleMetabolics is connected.).-->
+            <socket_muscle></socket_muscle>
+            <!--The specific tension of the muscle (Pascals (N/m^2), default is 0.25e6).-->
+            <specific_tension>250000</specific_tension>
+            <!--The density of the muscle (kg/m^3, default is 1059.7).-->
+            <density>1059.7</density>
+            <!--Ratio of slow twitch fibers in the muscle (must be between 0 and 1, default is 0.5).-->
+            <ratio_slow_twitch_fibers>0.5</ratio_slow_twitch_fibers>
+            <!--An optional flag that allows the user to explicitly specify a muscle mass. If set to true, the 'provided_muscle_mass' property must be specified (default is false).-->
+            <use_provided_muscle_mass>false</use_provided_muscle_mass>
+            <!--The user specified muscle mass (kg, default is NaN). When this property is NaN, the muscle mass is calculated as follows: (volume * density) / specific_tension) where volume = maximal_isometric_force * optimal_fiber_length.-->
+            <provided_muscle_mass>NaN</provided_muscle_mass>
+            <!--Activation constant for slow twitch fibers (W/kg, default is 40.0).-->
+            <activation_constant_slow_twitch>40</activation_constant_slow_twitch>
+            <!--Activation constant for fast twitch fibers (W/kg, default is 133.0).-->
+            <activation_constant_fast_twitch>133</activation_constant_fast_twitch>
+            <!--Maintenance constant for slow twitch fibers (W/kg, default is 74.0).-->
+            <maintenance_constant_slow_twitch>74</maintenance_constant_slow_twitch>
+            <!--Maintenance constant for fast twitch fibers (W/kg, default is 111.0).-->
+            <maintenance_constant_fast_twitch>111</maintenance_constant_fast_twitch>
+        </Bhargava2004SmoothedMuscleMetabolics_MuscleParameters>
+    </muscle_parameters>
+	 <!--Specify whether the total heat rate for a muscle will be clamped to a minimum value of 1.0 W/kg (default is true). When set to true, the sum of the reported individual heat rates + work rate will not equal the reported total metabolic rate if the total heat rate falls below 1.0 W/kg.-->
+	 <enforce_minimum_heat_rate_per_muscle>true</enforce_minimum_heat_rate_per_muscle>
+	 <!--Specify whether to use a force dependent shortening proportionality constant (default is false).-->
+	 <use_force_dependent_shortening_prop_constant>false</use_force_dependent_shortening_prop_constant>
+	 <!--Basal metabolic coefficient (default is 1.2).-->
+	 <basal_coefficient>1.2</basal_coefficient>
+	 <!--Basal metabolic exponent (default is 1).-->
+	 <basal_exponent>1</basal_exponent>
+	 <!--Scale the excitation and activation values to compensate for solutions with excessive coactivation (e.g., when a suboptimal tracking strategy is used) (default is 1).-->
+	 <muscle_effort_scaling_factor>1</muscle_effort_scaling_factor>
+	 <!--Specify whether negative mechanical work will be included in mechanicalWorkRate (default is true).-->
+	 <include_negative_mechanical_work>true</include_negative_mechanical_work>
+	 <!--Specify whether the total power for each muscle must remain positive (default is true).-->
+	 <forbid_negative_total_power>true</forbid_negative_total_power>
+	 <!--An optional flag that allows the user to explicitly specify whether a smooth approximation of the metabolic energy model should be used (default is false).-->
+	 <use_smoothing>false</use_smoothing>
+	 <!--An optional flag that allows the user to explicitly specify what type of smoothing to use ('tanh' or 'huber'; default is 'tanh').-->
+	 <smoothing_type>tanh</smoothing_type>
+	 <!--The parameter that determines the smoothness of the transition of the tanh or Huber loss function used to smooth the conditions related to contraction type (concentric or eccentric). Note that when computing the shortening heat rate while using the force dependent shortening proportionality constant, a tanh approximation is used even when using the Huber loss smoothing approach. The larger the steeper the transition but the worse for optimization (default is 10).-->
+	 <velocity_smoothing>10</velocity_smoothing>
+	 <!--The parameter that determines the smoothness of the transition of the tanh or Huber loss function used to smooth the condition enforcing non-negative total power. The larger the steeper the transition but the worse for optimization (default is 10).-->
+	 <power_smoothing>10</power_smoothing>
+	 <!--The parameter that determines the smoothness of the transition of the tanh or Huber loss function used to smooth the condition enforcing total heat rate larger than 1 (W/kg) for a give muscle . The larger the steeper the transition but the worse for optimization (default is 10).-->
+	 <heat_rate_smoothing>10</heat_rate_smoothing>
+ </Bhargava2004SmoothedMuscleMetabolics>

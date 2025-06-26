@@ -35,3 +35,5 @@ The Python scripts in this folder were developed using **OpenSim v4.5** alongsid
 There are various dependencies associated with the code, which include:
 
 - **[TODO: add dependencies]**
+
+Alongside the OpenSim Python dependency, the Python scripts assume that OpenSim is installed at **`C:\OpenSim 4.5`** and that the associated Geometry folder that comes with installation contained within this (i.e. **`C:\OpenSim 4.5\Geometry`**). Users with this installed to a different location will need to adjust the `geomDir` variable in the Python scripts. The code will still run without doing this, however constant prompt messages acknowledging an inability to find associated model geometry may be repeatedly displayed in the console while the code is running.

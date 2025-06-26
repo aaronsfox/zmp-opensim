@@ -1,0 +1,109 @@
+[2024-03-05 14:42:59.506] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 14:51:44.843] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 14:51:44.847] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 14:51:44.861] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 14:53:25.796] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 14:53:25.800] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 14:53:25.822] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 14:53:44.453] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 14:53:44.456] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 14:53:44.468] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:01:55.494] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 15:02:50.133] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:02:50.137] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:02:50.161] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:02:50.177] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 15:02:50.179] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 15:02:50.191] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:05:52.232] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-05 15:05:52.242] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-05 15:05:52.242] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-05 15:05:52.242] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-05 15:06:21.874] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 15:08:06.414] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 15:08:42.811] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 15:09:19.770] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 15:09:24.691] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:09:24.695] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:09:24.723] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:09:24.747] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 15:09:24.749] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 15:09:24.761] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:09:36.264] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-05 15:09:36.264] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-05 15:09:36.264] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-05 15:09:36.264] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-05 15:18:21.475] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-05 15:18:21.475] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-05 15:18:21.475] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-05 15:18:21.475] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-05 15:28:02.006] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-05 15:28:02.006] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-05 15:28:02.006] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-05 15:28:02.006] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-05 15:32:03.937] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-05 15:32:03.937] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-05 15:32:03.937] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-05 15:32:03.937] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-05 15:33:16.980] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:33:16.984] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:33:16.997] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:33:17.003] [error] IO.OpenFile(const string&,const string&): failed to open data\Ostrich_Walk_coordinates.mot.
+[2024-03-05 15:35:34.853] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:36:23.415] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:36:23.418] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:36:34.300] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:36:34.304] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:36:34.317] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:40:04.884] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-05 15:40:08.735] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:40:08.739] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-05 15:40:08.770] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:40:08.820] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 15:40:08.822] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-05 15:40:08.834] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-05 15:40:22.923] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-05 15:40:22.923] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-05 15:40:22.923] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-05 15:40:22.923] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-06 10:09:31.654] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich.osim
+[2024-03-06 10:09:38.540] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:09:38.544] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:09:38.573] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:09:38.633] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:09:38.635] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:09:38.646] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:09:47.664] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-06 10:09:47.665] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-06 10:09:47.665] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-06 10:09:47.665] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-06 10:11:38.520] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:11:38.524] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:11:38.559] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:11:39.149] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:11:39.151] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:11:39.162] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:11:39.240] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-06 10:11:39.240] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-06 10:11:39.240] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-06 10:11:39.240] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-06 10:39:23.289] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:39:23.294] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:39:23.321] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:39:23.906] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:39:23.908] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:39:23.920] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:39:23.991] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-06 10:39:23.991] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-06 10:39:23.991] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-06 10:39:23.991] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.
+[2024-03-06 10:43:33.644] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:43:33.648] [info] Storage: read data file = data\Ostrich_Walk.mot (nr=271 nc=31)
+[2024-03-06 10:43:33.680] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:43:34.273] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:43:34.275] [info] Storage: read data file = data\Ostrich_Run.mot (nr=153 nc=28)
+[2024-03-06 10:43:34.286] [info] Loaded model Rankin2016_Ostrich from file models\Rankin2016_Ostrich_noMuscles.osim
+[2024-03-06 10:43:34.364] [warning] Coordinate.setValue:  coordinate R_ankle_abduction is locked. Unable to change its value.
+[2024-03-06 10:43:34.364] [warning] Coordinate.setValue:  coordinate R_ankle_rotation is locked. Unable to change its value.
+[2024-03-06 10:43:34.364] [warning] Coordinate.setValue:  coordinate R_mtp_abduction is locked. Unable to change its value.
+[2024-03-06 10:43:34.364] [warning] Coordinate.setValue:  coordinate R_mtp_rotation is locked. Unable to change its value.

@@ -1,0 +1,86 @@
+[2024-03-10 15:55:27.751] [info] Loaded model subject01_scaled from file osimModel.osim
+[2024-03-10 15:55:27.752] [warning] Couldn't find file 'sacrum.vtp'.
+[2024-03-10 15:55:27.752] [warning] Couldn't find file 'pelvis.vtp'.
+[2024-03-10 15:55:27.752] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'femur_r.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'tibia_r.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'fibula_r.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'talus_rv.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'foot.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'bofoot.vtp'.
+[2024-03-10 15:55:27.753] [warning] Couldn't find file 'femur_l.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'tibia_l.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'fibula_l.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'talus_lv.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'l_foot.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'hat_spine.vtp'.
+[2024-03-10 15:55:27.754] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'hat_skull.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'radius_rv.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2024-03-10 15:55:27.755] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2024-03-10 15:55:27.756] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2024-03-10 15:55:27.757] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'radius_lv.vtp'.
+[2024-03-10 15:55:27.758] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2024-03-10 15:55:27.759] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2024-03-10 15:55:27.759] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2024-03-10 15:55:27.759] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2024-03-10 15:55:27.759] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2024-03-10 15:55:27.759] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2024-03-10 15:55:27.760] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2024-03-10 15:55:27.760] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2024-03-10 15:55:27.760] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2024-03-10 15:55:27.760] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2024-03-10 15:55:27.760] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2024-03-10 15:55:27.760] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2024-03-10 15:55:27.761] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2024-03-10 15:55:27.761] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2024-03-10 15:55:27.761] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2024-03-10 15:55:27.761] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2024-03-10 15:55:27.761] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2024-03-10 15:55:27.761] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2024-03-10 15:55:27.762] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2024-03-10 15:55:27.762] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2024-03-10 15:55:27.762] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2024-03-10 15:55:27.762] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2024-03-10 15:55:27.762] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2024-03-10 15:55:27.763] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2024-03-10 15:55:27.763] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2024-03-10 15:55:27.763] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2024-03-10 15:55:27.763] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2024-03-10 15:56:04.715] [info] Loaded model subject01_scaled from file osimModel.osim
+[2024-03-11 11:51:01.070] [info] Loaded model subject01_scaled from file osimModel.osim
+[2024-03-11 14:41:49.327] [info] Loaded model subject01_scaled from file osimModel.osim
+[2024-03-11 16:16:57.607] [info] Loaded model subject01_scaled from file osimModel.osim
+[2024-03-11 21:36:04.349] [info] Loaded model subject01_scaled from file osimModel.osim
+[2024-03-12 17:01:30.417] [info] Loaded model subject01_scaled from file osimModel.osim

@@ -59,7 +59,7 @@ int main() {
     Model osimModel("C:\\+GitRepos+\\zmp-opensim\\pilot\\cppImplementationZMP\\osimModel.osim");
 
  	// Initialize the model's underlying computational system and get its default state.
-    State& sWorkingCopy = osimModel.initSystem();
+    State& sWorkingCopy = osimModel.initSystem(); // --- needed?
 
     // Get number of forces in model
     int nf = osimModel.updForceSet().getSize();
@@ -171,42 +171,43 @@ int main() {
         // Get the current state
         State s = statesTraj[i];
 
-        // Set the current states in the working copy
+        // Set the current states in the working copy --- necessary to use working copy?
         sWorkingCopy.setTime(s.getTime());
         sWorkingCopy.setQ(s.getQ());
         sWorkingCopy.setU(s.getU());
 
-        // Overide actuation of forces
-        for (int j = 0; j < nf; j++) {
-            ScalarActuator* act = dynamic_cast<ScalarActuator*>(&osimModel.updForceSet().get(j));
-            if (act) {
-                act->setOverrideActuation(sWorkingCopy, 1);
-            }
-        }
+        //// Overide actuation of forces - needed, doing anything?
+        //for (int j = 0; j < nf; j++) {
+        //    ScalarActuator* act = dynamic_cast<ScalarActuator*>(&osimModel.updForceSet().get(j));
+        //    if (act) {
+        //        act->setOverrideActuation(sWorkingCopy, 1);
+        //    }
+        //}
 
         // Realize to accelerations stage
-        //osimModel.getMultibodySystem().realize(sWorkingCopy, Stage::Acceleration);
-        osimModel.getMultibodySystem().realize(sWorkingCopy, Stage::Dynamics);
+        osimModel.getMultibodySystem().realize(s, Stage::Acceleration); // --- this results in all zeros...why?
+        //osimModel.getMultibodySystem().realize(sWorkingCopy, Stage::Dynamics);
+        //osimModel.computeStateVariableDerivatives(sWorkingCopy); // this just results in zeros...
 
         // Compute accelerations of current state
         /*NOTE: this getUDot approach seems to produce different results compare
         to using an entire trajectory???*/
-        //Vector udot = osimModel.getMatterSubsystem().getUDot(sWorkingCopy);
+        Vector udot = osimModel.getMatterSubsystem().getUDot(s);
 
-        // Get accelerations from the Moco trajectory to see if this solves the difference results
-        // Vector udot = uDotTable.getRowAtIndex(uDotTable.getNearestRowIndexForTime(s.getTime())).getAsVector();
-        /*NOTE: this approach produces the desired results.*/
-        Vector udot(nq);
-        for (int k = 0; k < nq; k++) {
-            udot.set(k, uDotTable.getRowAtIndex(i).getAnyElt(0, k));
-        }
+        //// Get accelerations from the Moco trajectory to see if this solves the difference results
+        //// Vector udot = uDotTable.getRowAtIndex(uDotTable.getNearestRowIndexForTime(s.getTime())).getAsVector();
+        ///*NOTE: this approach produces the desired results.*/
+        //Vector udot(nq);
+        //for (int k = 0; k < nq; k++) {
+        //    udot.set(k, uDotTable.getRowAtIndex(i).getAnyElt(0, k));
+        //}
 
         // Solve inverse dynamics given current states and udot
         // The output vector contains the generalised coordinate forces
         // to generate the accelerations based on the current state.
         // Note that these aren't necessarily in the order of the
         // coordinate set, but rather the multibody tree order.
-        Vector genForceTraj = ivdSolver.solve(sWorkingCopy, udot);
+        Vector genForceTraj = ivdSolver.solve(s, udot);
 
         // Create a state vector to store the forces
         // Note that this allocates the time from the current state and 6 slots for the
@@ -220,7 +221,7 @@ int main() {
         for (int j = 0; j < nj; j++) {
             
             // Calculate the body force at the current joint
-            SpatialVec equivalentBodyForceAtJoint = osimModel.getJointSet().get(freeJoint).calcEquivalentSpatialForce(s, genForceTraj); // problems...
+            SpatialVec equivalentBodyForceAtJoint = osimModel.getJointSet().get(freeJoint).calcEquivalentSpatialForce(s, genForceTraj);
 
             // Extract the Vec3 components and set in forces vector
             for (int k = 0; k < 3; k++) {
@@ -244,6 +245,21 @@ int main() {
 
         // Set vector to store results for current state (6 values per limb)
         Vector zmpVec = Vector(6 * 2);
+
+        // Set zeros as default values
+        /*TODO: this should be done in establishing Vector, but doesn't seem to?*/
+        zmpVec.set(0, 0.0);
+        zmpVec.set(1, 0.0);
+        zmpVec.set(2, 0.0);
+        zmpVec.set(3, 0.0);
+        zmpVec.set(4, 0.0);
+        zmpVec.set(5, 0.0);
+        zmpVec.set(6, 0.0);
+        zmpVec.set(7, 0.0);
+        zmpVec.set(8, 0.0);
+        zmpVec.set(9, 0.0);
+        zmpVec.set(10, 0.0);
+        zmpVec.set(11, 0.0);
 
         // Get the body forces acting at the free body (generally pelvis)
         //* TODO: this is manually indexed to get pelvis --- needs to be fixed for different models... *//
@@ -272,43 +288,28 @@ int main() {
 
             // Get the position of the right and left body origins in the ground
             // This will determine which is closer to the predicted COP
-            Vec3 rightBodyPos = osimModel.updBodySet().get(rightBodyName).findStationLocationInGround(sWorkingCopy, Vec3(0, 0, 0));
-            Vec3 leftBodyPos = osimModel.updBodySet().get(leftBodyName).findStationLocationInGround(sWorkingCopy, Vec3(0, 0, 0));
+            Vec3 rightBodyPos = osimModel.updBodySet().get(rightBodyName).findStationLocationInGround(s, Vec3(0, 0, 0));
+            Vec3 leftBodyPos = osimModel.updBodySet().get(leftBodyName).findStationLocationInGround(s, Vec3(0, 0, 0));
 
             //// Calculate distances from body to predicted ZMP
-            /*TODO: I'm not sure these distance calculations are working correctly...*/
-            //double rightBodyDist = pow((rightBodyPos.get(0) - zmpCOP.get(0)), 2) + pow((rightBodyPos.get(1) - zmpCOP.get(1)), 2) + pow((rightBodyPos.get(2) - zmpCOP.get(2)), 2);
-            //double leftBodyDist = pow((leftBodyPos.get(0) - zmpCOP.get(0)), 2) + pow((leftBodyPos.get(1) - zmpCOP.get(1)), 2) + pow((leftBodyPos.get(2) - zmpCOP.get(2)), 2);
 
-            //// Find smaller distance and allocate to appropriate part of ZMP vector
-            //// There shouldn't be a need to change the non-used side as they should be zeros
-            ////* TODO: edge cases where identical? It won't allocate anything if that happens... *//
-            //if (rightBodyDist < leftBodyDist) {
-            //    // Right side forces
-            //    zmpVec.set(0, freeBodyF.get(0));
-            //    zmpVec.set(1, freeBodyF.get(1));
-            //    zmpVec.set(2, freeBodyF.get(2));
-            //    // Right side COP
-            //    zmpVec.set(3, zmpCOP.get(0));
-            //    zmpVec.set(4, zmpCOP.get(1));
-            //    zmpVec.set(5, zmpCOP.get(2));
-            //}
-            //else if (leftBodyDist < rightBodyDist) {
-            //    // Left side forces
-            //    zmpVec.set(6, freeBodyF.get(0));
-            //    zmpVec.set(7, freeBodyF.get(1));
-            //    zmpVec.set(8, freeBodyF.get(2));
-            //    // Left side COP
-            //    zmpVec.set(9, zmpCOP.get(0));
-            //    zmpVec.set(10, zmpCOP.get(1));
-            //    zmpVec.set(11, zmpCOP.get(2));
-            //}
+            // Right side
+            double xSqr_r = (rightBodyPos.get(0) - zmpCOP.get(0)) * (rightBodyPos.get(0) - zmpCOP.get(0));
+            double ySqr_r = (rightBodyPos.get(1) - zmpCOP.get(1)) * (rightBodyPos.get(1) - zmpCOP.get(1));
+            double zSqr_r = (rightBodyPos.get(2) - zmpCOP.get(2)) * (rightBodyPos.get(2) - zmpCOP.get(2));
+            double rightBodyDist = sqrt(xSqr_r + ySqr_r + zSqr_r);
 
-            // Take a simpler approach to check results
-            // Simply take whichever body is lower
-            // This would work for running, but not other movements
-            /*This resolves issue...*/
-            if (rightBodyPos.get(1) < leftBodyPos.get(1)) {
+            // Left side
+            double xSqr_l = (leftBodyPos.get(0) - zmpCOP.get(0)) * (leftBodyPos.get(0) - zmpCOP.get(0));
+            double ySqr_l = (leftBodyPos.get(1) - zmpCOP.get(1)) * (leftBodyPos.get(1) - zmpCOP.get(1));
+            double zSqr_l = (leftBodyPos.get(2) - zmpCOP.get(2)) * (leftBodyPos.get(2) - zmpCOP.get(2));
+            double leftBodyDist = sqrt(xSqr_l + ySqr_l + zSqr_l);
+
+            // Find smaller distance and allocate to appropriate part of ZMP vector
+            // There shouldn't be a need to change the non-used side as they should be zeros
+            //* TODO: edge cases where identical? It won't allocate anything if that happens... *//
+            if (rightBodyDist < leftBodyDist) {
+
                 // Right side forces
                 zmpVec.set(0, freeBodyF.get(0));
                 zmpVec.set(1, freeBodyF.get(1));
@@ -317,8 +318,28 @@ int main() {
                 zmpVec.set(3, zmpCOP.get(0));
                 zmpVec.set(4, zmpCOP.get(1));
                 zmpVec.set(5, zmpCOP.get(2));
+
+                // Left side forces (zero)
+                zmpVec.set(6, 0.0);
+                zmpVec.set(7, 0.0);
+                zmpVec.set(8, 0.0);
+                // Left side COP (zero)
+                zmpVec.set(9, 0.0);
+                zmpVec.set(10, 0.0);
+                zmpVec.set(11, 0.0);
+
             }
-            else if (leftBodyPos.get(1) < rightBodyPos.get(1)) {
+            else if (leftBodyDist < rightBodyDist) {
+                
+                // Right side forces (zero)
+                zmpVec.set(0, 0.0);
+                zmpVec.set(1, 0.0);
+                zmpVec.set(2, 0.0);
+                // Right side COP(zero)
+                zmpVec.set(3, 0.0);
+                zmpVec.set(4, 0.0);
+                zmpVec.set(5, 0.0);
+                
                 // Left side forces
                 zmpVec.set(6, freeBodyF.get(0));
                 zmpVec.set(7, freeBodyF.get(1));

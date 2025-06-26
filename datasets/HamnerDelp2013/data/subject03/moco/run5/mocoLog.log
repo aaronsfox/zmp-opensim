@@ -1,0 +1,34 @@
+[2023-03-10 20:53:13.843] [info] Old version storage/motion file encountered
+[2023-03-10 20:53:13.844] [info] Storage: read data file = ..\..\ik\Run_5.mot (nr=364 nc=173)
+[2023-03-10 20:53:13.844] [info] .. assuming rotations in Degrees..
+[2023-03-10 20:53:13.895] [info] Old version storage/motion file encountered
+[2023-03-10 20:53:13.895] [info] Storage: read data file = ..\..\ik\Run_5.mot (nr=364 nc=173)
+[2023-03-10 20:53:13.895] [info] .. assuming rotations in Degrees..
+[2023-03-10 20:53:14.061] [info] Loaded model subject03_scaled from file ..\..\model\subject03_adjusted_scaled.osim
+[2023-03-10 20:53:14.266] [info] Loaded model subject03_scaled from file ..\..\model\subject03_adjusted_scaled.osim
+[2023-03-10 20:53:14.358] [warning] ExternalLoads 'externalloads' has subcomponents with duplicate name 'externalforce'. The duplicate is being renamed to 'externalforce_0'.
+[2023-03-10 20:53:14.468] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.468] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.605] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.605] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.686] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.686] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.785] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:14.785] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:22.905] [info] Old version storage/motion file encountered
+[2023-12-05 23:10:22.905] [info] Storage: read data file = ..\..\ik\Run_5.mot (nr=364 nc=173)
+[2023-12-05 23:10:22.905] [info] .. assuming rotations in Degrees..
+[2023-12-05 23:10:22.964] [info] Old version storage/motion file encountered
+[2023-12-05 23:10:22.964] [info] Storage: read data file = ..\..\ik\Run_5.mot (nr=364 nc=173)
+[2023-12-05 23:10:22.964] [info] .. assuming rotations in Degrees..
+[2023-12-05 23:10:23.126] [info] Loaded model subject03_scaled from file ..\..\model\subject03_adjusted_scaled.osim
+[2023-12-05 23:10:24.453] [info] Loaded model subject03_scaled from file ..\..\model\subject03_adjusted_scaled.osim
+[2023-12-05 23:10:24.507] [warning] ExternalLoads 'externalloads' has subcomponents with duplicate name 'externalforce'. The duplicate is being renamed to 'externalforce_0'.
+[2023-12-05 23:10:24.577] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.577] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.668] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.668] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.734] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.734] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.811] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:24.812] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot

@@ -1,0 +1,636 @@
+[2023-03-10 20:53:15.087] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.087] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.375] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.375] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.540] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.541] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.701] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.701] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.834] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.834] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.983] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:15.983] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.127] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.127] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.250] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.250] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.391] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.392] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.537] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.537] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.657] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.657] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.773] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.773] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.910] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:16.910] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.040] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.040] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.196] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.196] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.356] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.356] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.494] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.494] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.659] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.659] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.808] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.808] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.991] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:17.991] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.113] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.113] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.280] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.281] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.812] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.812] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.962] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:18.962] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.108] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.108] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.228] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.228] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.416] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.417] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.531] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.531] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.665] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.665] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.827] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.827] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.845] [info] ========================================================================
+[2023-03-10 20:53:19.845] [info] MocoCasADiSolver starting.
+[2023-03-10 20:53:19.845] [info] Fri Mar 10 20:53:19 2023
+[2023-03-10 20:53:19.845] [info] ------------------------------------------------------------------------
+[2023-03-10 20:53:19.845] [cout] [info] Costs: (total: 2)
+[2023-03-10 20:53:19.845] [cout] [info]   state_tracking. MocoStateTrackingGoal, enabled: true, mode: cost, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/value, weight: 750.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ground_pelvis/pelvis_list/value, weight: 250.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ground_pelvis/pelvis_rotation/value, weight: 50.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/value, weight: 25.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/value, weight: 100.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tz/value, weight: 25.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/value, weight: 75.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/hip_r/hip_adduction_r/value, weight: 50.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/hip_r/hip_rotation_r/value, weight: 10.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/knee_r/knee_angle_r/value, weight: 10.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/value, weight: 10.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/value, weight: 75.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/hip_l/hip_adduction_l/value, weight: 50.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/hip_l/hip_rotation_l/value, weight: 10.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/knee_l/knee_angle_l/value, weight: 10.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/value, weight: 10.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/back/lumbar_extension/value, weight: 75.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/back/lumbar_bending/value, weight: 50.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/back/lumbar_rotation/value, weight: 25.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/acromial_r/arm_flex_r/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/acromial_r/arm_add_r/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/acromial_r/arm_rot_r/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/elbow_r/elbow_flex_r/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/radioulnar_r/pro_sup_r/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/acromial_l/arm_flex_l/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/acromial_l/arm_add_l/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/acromial_l/arm_rot_l/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/elbow_l/elbow_flex_l/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/radioulnar_l/pro_sup_l/value, weight: 1.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/subtalar_r/subtalar_angle_r/value, weight: 0.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/mtp_r/mtp_angle_r/value, weight: 0.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/subtalar_l/subtalar_angle_l/value, weight: 0.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/mtp_l/mtp_angle_l/value, weight: 0.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/radius_hand_r/wrist_flex_r/value, weight: 0.0
+[2023-03-10 20:53:19.846] [cout] [info]         state: /jointset/radius_hand_r/wrist_dev_r/value, weight: 0.0
+[2023-03-10 20:53:19.847] [cout] [info]         state: /jointset/radius_hand_l/wrist_flex_l/value, weight: 0.0
+[2023-03-10 20:53:19.847] [cout] [info]         state: /jointset/radius_hand_l/wrist_dev_l/value, weight: 0.0
+[2023-03-10 20:53:19.847] [cout] [info]   control_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pelvis_tx_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pelvis_ty_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pelvis_tz_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pelvis_tilt_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pelvis_list_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pelvis_rotation_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/hip_flexion_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/hip_adduction_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/hip_rotation_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/knee_angle_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/ankle_angle_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/hip_flexion_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/hip_adduction_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/hip_rotation_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/knee_angle_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/ankle_angle_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/lumbar_extension_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/lumbar_bending_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/lumbar_rotation_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/arm_flex_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/arm_add_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/arm_rot_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/elbow_flex_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pro_sup_r_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/arm_flex_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/arm_add_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/arm_rot_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/elbow_flex_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info]         control: /forceset/pro_sup_l_actuator, weight: 1.0
+[2023-03-10 20:53:19.847] [cout] [info] Endpoint constraints: none
+[2023-03-10 20:53:19.847] [cout] [info] Kinematic constraints: (total: 8)
+[2023-03-10 20:53:19.847] [cout] [info]   kinematic_constraint_cid27. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.847] [cout] [info]   kinematic_constraint_cid28. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.847] [cout] [info]   kinematic_constraint_cid31. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.848] [cout] [info]   kinematic_constraint_cid32. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.848] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.848] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.848] [cout] [info]   kinematic_constraint_cid35. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.848] [cout] [info]   kinematic_constraint_cid36. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-03-10 20:53:19.848] [cout] [info] Path constraints: none
+[2023-03-10 20:53:19.848] [cout] [info] States: (total: 74)
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/value. bounds: [-0.374062, 0.134487]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ground_pelvis/pelvis_list/value. bounds: [-0.31441, 0.301673]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/radioulnar_r/pro_sup_r/value. bounds: [1.47892, 1.99532]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ground_pelvis/pelvis_rotation/value. bounds: [-0.260349, 0.34966]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/value. bounds: [0.658706, 1.1446]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/elbow_r/elbow_flex_r/value. bounds: [1.29516, 2.55398]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/value. bounds: [0.857467, 1.161]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/radius_hand_l/wrist_flex_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ground_pelvis/pelvis_tz/value. bounds: [-0.572207, -0.127763]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_r/hip_adduction_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ankle_r/ankle_angle_r/value. bounds: [-0.647617, 0.684005]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_r/hip_flexion_r/value. bounds: [-0.552611, 1.17956]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_r/hip_adduction_r/value. bounds: [-0.163445, 0.398732]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/back/lumbar_rotation/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_r/hip_rotation_r/value. bounds: [-0.220955, 0.274792]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/mtp_l/mtp_angle_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/knee_r/knee_angle_r/value. bounds: [-2.44544, 0.113937]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/subtalar_r/subtalar_angle_r/value. bounds: [-1.5708, 1.5708]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_l/hip_flexion_l/value. bounds: [-0.561503, 1.11188]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_l/hip_adduction_l/value. bounds: [-0.184277, 0.412735]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/hip_l/hip_rotation_l/value. bounds: [-0.164216, 0.306189]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/knee_l/knee_angle_l/value. bounds: [-2.32107, 0.0896753]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/knee_r/knee_angle_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/ankle_l/ankle_angle_l/value. bounds: [-0.631969, 0.660855]
+[2023-03-10 20:53:19.848] [cout] [info]   /jointset/back/lumbar_extension/value. bounds: [-0.337027, 0.26866]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/back/lumbar_bending/value. bounds: [-0.241819, 0.325234]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/back/lumbar_rotation/value. bounds: [-0.359124, 0.444165]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/acromial_r/arm_flex_r/value. bounds: [-1.04096, -0.210398]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/acromial_r/arm_add_r/value. bounds: [-0.538091, -0.0567304]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/acromial_r/arm_rot_r/value. bounds: [-0.607827, 0.17132]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/acromial_l/arm_flex_l/value. bounds: [-1.0001, -0.0971289]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/acromial_l/arm_add_l/value. bounds: [-0.584124, -0.0584312]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/acromial_l/arm_rot_l/value. bounds: [-0.364836, 0.27665]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/elbow_l/elbow_flex_l/value. bounds: [1.51495, 2.70244]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/radioulnar_l/pro_sup_l/value. bounds: [1.38252, 1.91421]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ground_pelvis/pelvis_list/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/radioulnar_r/pro_sup_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ground_pelvis/pelvis_rotation/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/elbow_r/elbow_flex_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ground_pelvis/pelvis_tz/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ankle_r/ankle_angle_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/hip_r/hip_flexion_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/hip_r/hip_rotation_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/hip_l/hip_flexion_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/subtalar_r/subtalar_angle_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/mtp_r/mtp_angle_r/value. bounds: [-1.5708, 1.5708]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/mtp_r/mtp_angle_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/hip_l/hip_adduction_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/hip_l/hip_rotation_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/knee_l/knee_angle_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/ankle_l/ankle_angle_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/subtalar_l/subtalar_angle_l/value. bounds: [-1.5708, 1.5708]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/subtalar_l/subtalar_angle_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/mtp_l/mtp_angle_l/value. bounds: [-1.0472, 1.0472]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/back/lumbar_extension/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.849] [cout] [info]   /jointset/back/lumbar_bending/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/acromial_r/arm_flex_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/acromial_r/arm_add_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/acromial_r/arm_rot_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_r/wrist_flex_r/value. bounds: [-1.22173, 1.22173]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_r/wrist_flex_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_r/wrist_dev_r/value. bounds: [-0.436332, 0.610865]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_r/wrist_dev_r/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/acromial_l/arm_flex_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/acromial_l/arm_add_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/acromial_l/arm_rot_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/elbow_l/elbow_flex_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radioulnar_l/pro_sup_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_l/wrist_flex_l/value. bounds: [-1.22173, 1.22173]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_l/wrist_dev_l/value. bounds: [-0.436332, 0.610865]
+[2023-03-10 20:53:19.850] [cout] [info]   /jointset/radius_hand_l/wrist_dev_l/speed. bounds: [-50, 50]
+[2023-03-10 20:53:19.850] [cout] [info] Controls: (total: 29)
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/pelvis_tx_actuator. bounds: [-10000, 10000]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/pelvis_ty_actuator. bounds: [-10000, 10000]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/pelvis_tz_actuator. bounds: [-10000, 10000]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/arm_flex_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/hip_rotation_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/pelvis_tilt_actuator. bounds: [-10000, 10000]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/pelvis_list_actuator. bounds: [-10000, 10000]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/pelvis_rotation_actuator. bounds: [-10000, 10000]
+[2023-03-10 20:53:19.850] [cout] [info]   /forceset/elbow_flex_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/hip_adduction_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/hip_flexion_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/elbow_flex_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/hip_flexion_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/hip_adduction_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/knee_angle_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/lumbar_rotation_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/ankle_angle_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/arm_flex_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/hip_rotation_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/knee_angle_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/ankle_angle_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/lumbar_extension_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/lumbar_bending_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/arm_add_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/arm_rot_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/pro_sup_r_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/arm_add_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/arm_rot_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info]   /forceset/pro_sup_l_actuator. bounds: [-1, 1]
+[2023-03-10 20:53:19.851] [cout] [info] Parameters: none
+[2023-03-10 20:53:19.966] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:19.966] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.084] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.084] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.206] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.206] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.361] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.361] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.494] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.494] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.620] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.620] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.780] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.780] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.950] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:20.950] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.083] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.083] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.239] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.239] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.388] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.388] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.548] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.548] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.700] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.701] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.885] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:21.885] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:22.028] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:22.028] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:22.155] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:22.155] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 20:53:22.180] [info] Number of threads: 8
+[2023-03-10 21:11:35.500] [info] Set log level to Info.
+[2023-03-10 21:11:35.523] [info] ------------------------------------------------------------------------
+[2023-03-10 21:11:35.523] [info] Elapsed real time: 1096 second(s) (18 minute(s), 16 second(s)).
+[2023-03-10 21:11:35.523] [info] Fri Mar 10 21:11:35 2023
+[2023-03-10 21:11:35.524] [info] MocoCasADiSolver succeeded!
+[2023-03-10 21:11:35.524] [info] ========================================================================
+[2023-03-10 21:11:35.836] [info] Loaded model subject03_scaled from file ..\..\model\subject03_adjusted_scaled.osim
+[2023-03-10 21:11:36.679] [cout] [info] 
+               MODEL: subject03_scaled
+         coordinates: 37
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 20
+              joints: 20
+         constraints: 0
+             markers: 56
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2023-03-10 21:11:36.680] [info] Running tool subject10_scaled...
+[2023-03-10 21:11:36.711] [warning] ExternalLoads 'externalloads' has subcomponents with duplicate name 'externalforce'. The duplicate is being renamed to 'externalforce_0'.
+[2023-03-10 21:11:36.856] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 21:11:36.857] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-03-10 21:11:37.654] [info] InverseDynamicsTool: 119 time frames in 739 millisecond(s).
+[2023-12-05 23:10:25.008] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.010] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.259] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.259] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.365] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.365] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.439] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.439] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.520] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.520] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.593] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.594] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.684] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.684] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.755] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.755] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.835] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.835] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.908] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.908] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.990] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:25.990] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.063] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.063] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.146] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.146] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.221] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.221] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.299] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.299] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.370] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.370] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.454] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.454] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.524] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.524] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.604] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.604] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.677] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.677] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.764] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.764] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.836] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:26.836] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.191] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.192] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.261] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.261] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.336] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.336] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.405] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.405] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.518] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.518] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.588] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.588] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.664] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.664] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.733] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.733] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.750] [info] ========================================================================
+[2023-12-05 23:10:27.750] [info] MocoCasADiSolver starting.
+[2023-12-05 23:10:27.750] [info] Tue Dec  5 23:10:27 2023
+[2023-12-05 23:10:27.750] [info] ------------------------------------------------------------------------
+[2023-12-05 23:10:27.750] [cout] [info] Costs: (total: 2)
+[2023-12-05 23:10:27.750] [cout] [info]   state_tracking. MocoStateTrackingGoal, enabled: true, mode: cost, weight: 1.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/value, weight: 750.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/ground_pelvis/pelvis_list/value, weight: 250.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/ground_pelvis/pelvis_rotation/value, weight: 50.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/value, weight: 25.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/value, weight: 100.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tz/value, weight: 25.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/value, weight: 75.0
+[2023-12-05 23:10:27.750] [cout] [info]         state: /jointset/hip_r/hip_adduction_r/value, weight: 50.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_r/hip_rotation_r/value, weight: 10.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/knee_r/knee_angle_r/value, weight: 10.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/value, weight: 10.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/value, weight: 75.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_l/hip_adduction_l/value, weight: 50.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_l/hip_rotation_l/value, weight: 10.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/knee_l/knee_angle_l/value, weight: 10.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/value, weight: 10.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/back/lumbar_extension/value, weight: 75.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/back/lumbar_bending/value, weight: 50.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/back/lumbar_rotation/value, weight: 25.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_r/arm_flex_r/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_r/arm_add_r/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_r/arm_rot_r/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/elbow_r/elbow_flex_r/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radioulnar_r/pro_sup_r/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_l/arm_flex_l/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_l/arm_add_l/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_l/arm_rot_l/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/elbow_l/elbow_flex_l/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radioulnar_l/pro_sup_l/value, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/subtalar_r/subtalar_angle_r/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/mtp_r/mtp_angle_r/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/subtalar_l/subtalar_angle_l/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/mtp_l/mtp_angle_l/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_r/wrist_flex_r/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_r/wrist_dev_r/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_l/wrist_flex_l/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_l/wrist_dev_l/value, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/speed, weight: 7.5
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ground_pelvis/pelvis_list/speed, weight: 2.5
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ground_pelvis/pelvis_rotation/speed, weight: 0.5
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/speed, weight: 0.25
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/speed, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tz/speed, weight: 0.25
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/speed, weight: 0.75
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_r/hip_adduction_r/speed, weight: 0.5
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_r/hip_rotation_r/speed, weight: 0.1
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/knee_r/knee_angle_r/speed, weight: 0.1
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/speed, weight: 0.1
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/subtalar_r/subtalar_angle_r/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/mtp_r/mtp_angle_r/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/speed, weight: 0.75
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_l/hip_adduction_l/speed, weight: 0.5
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/hip_l/hip_rotation_l/speed, weight: 0.1
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/knee_l/knee_angle_l/speed, weight: 0.1
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/speed, weight: 0.1
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/subtalar_l/subtalar_angle_l/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/mtp_l/mtp_angle_l/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/back/lumbar_extension/speed, weight: 0.75
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/back/lumbar_bending/speed, weight: 0.5
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/back/lumbar_rotation/speed, weight: 0.25
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_r/arm_flex_r/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_r/arm_add_r/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_r/arm_rot_r/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/elbow_r/elbow_flex_r/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radioulnar_r/pro_sup_r/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_r/wrist_flex_r/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_r/wrist_dev_r/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_l/arm_flex_l/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_l/arm_add_l/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/acromial_l/arm_rot_l/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/elbow_l/elbow_flex_l/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radioulnar_l/pro_sup_l/speed, weight: 0.01
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_l/wrist_flex_l/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]         state: /jointset/radius_hand_l/wrist_dev_l/speed, weight: 0.0
+[2023-12-05 23:10:27.751] [cout] [info]   control_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pelvis_tx_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pelvis_ty_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pelvis_tz_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pelvis_tilt_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pelvis_list_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pelvis_rotation_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/hip_flexion_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/hip_adduction_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/hip_rotation_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/knee_angle_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/ankle_angle_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/hip_flexion_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/hip_adduction_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/hip_rotation_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/knee_angle_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/ankle_angle_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/lumbar_extension_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/lumbar_bending_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/lumbar_rotation_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/arm_flex_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/arm_add_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/arm_rot_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/elbow_flex_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pro_sup_r_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/arm_flex_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/arm_add_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/arm_rot_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/elbow_flex_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info]         control: /forceset/pro_sup_l_actuator, weight: 1.0
+[2023-12-05 23:10:27.751] [cout] [info] Endpoint constraints: none
+[2023-12-05 23:10:27.751] [cout] [info] Kinematic constraints: (total: 8)
+[2023-12-05 23:10:27.751] [cout] [info]   kinematic_constraint_cid27. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.751] [cout] [info]   kinematic_constraint_cid28. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.751] [cout] [info]   kinematic_constraint_cid31. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.751] [cout] [info]   kinematic_constraint_cid32. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.751] [cout] [info]   kinematic_constraint_cid33. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.751] [cout] [info]   kinematic_constraint_cid34. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.752] [cout] [info]   kinematic_constraint_cid35. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.752] [cout] [info]   kinematic_constraint_cid36. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+[2023-12-05 23:10:27.752] [cout] [info] Path constraints: none
+[2023-12-05 23:10:27.752] [cout] [info] States: (total: 74)
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/value. bounds: [-0.374062, 0.134487]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_list/value. bounds: [-0.31441, 0.301673]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radioulnar_r/pro_sup_r/value. bounds: [1.47892, 1.99532]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_rotation/value. bounds: [-0.260349, 0.34966]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/value. bounds: [0.658706, 1.1446]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/elbow_r/elbow_flex_r/value. bounds: [1.29516, 2.55398]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/value. bounds: [0.857467, 1.161]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_l/wrist_flex_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_tz/value. bounds: [-0.572207, -0.127763]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_r/hip_adduction_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ankle_r/ankle_angle_r/value. bounds: [-0.647617, 0.684005]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_r/hip_flexion_r/value. bounds: [-0.552611, 1.17956]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_r/hip_adduction_r/value. bounds: [-0.163445, 0.398732]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/back/lumbar_rotation/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_r/hip_rotation_r/value. bounds: [-0.220955, 0.274792]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/mtp_l/mtp_angle_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/knee_r/knee_angle_r/value. bounds: [-2.44544, 0.113937]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/subtalar_r/subtalar_angle_r/value. bounds: [-1.5708, 1.5708]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_l/hip_flexion_l/value. bounds: [-0.561503, 1.11188]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_l/hip_adduction_l/value. bounds: [-0.184277, 0.412735]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_l/hip_rotation_l/value. bounds: [-0.164216, 0.306189]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/knee_l/knee_angle_l/value. bounds: [-2.32107, 0.0896753]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/knee_r/knee_angle_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ankle_l/ankle_angle_l/value. bounds: [-0.631969, 0.660855]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/back/lumbar_extension/value. bounds: [-0.337027, 0.26866]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/back/lumbar_bending/value. bounds: [-0.241819, 0.325234]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/back/lumbar_rotation/value. bounds: [-0.359124, 0.444165]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_r/arm_flex_r/value. bounds: [-1.04096, -0.210398]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_r/arm_add_r/value. bounds: [-0.538091, -0.0567304]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_r/arm_rot_r/value. bounds: [-0.607827, 0.17132]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_l/arm_flex_l/value. bounds: [-1.0001, -0.0971289]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_l/arm_add_l/value. bounds: [-0.584124, -0.0584312]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_l/arm_rot_l/value. bounds: [-0.364836, 0.27665]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/elbow_l/elbow_flex_l/value. bounds: [1.51495, 2.70244]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radioulnar_l/pro_sup_l/value. bounds: [1.38252, 1.91421]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_list/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radioulnar_r/pro_sup_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_rotation/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/elbow_r/elbow_flex_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ground_pelvis/pelvis_tz/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ankle_r/ankle_angle_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_r/hip_flexion_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_r/hip_rotation_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_l/hip_flexion_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/subtalar_r/subtalar_angle_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/mtp_r/mtp_angle_r/value. bounds: [-1.5708, 1.5708]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/mtp_r/mtp_angle_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_l/hip_adduction_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/hip_l/hip_rotation_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/knee_l/knee_angle_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/ankle_l/ankle_angle_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/subtalar_l/subtalar_angle_l/value. bounds: [-1.5708, 1.5708]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/subtalar_l/subtalar_angle_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/mtp_l/mtp_angle_l/value. bounds: [-1.0472, 1.0472]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/back/lumbar_extension/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/back/lumbar_bending/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_r/arm_flex_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_r/arm_add_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_r/arm_rot_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_r/wrist_flex_r/value. bounds: [-1.22173, 1.22173]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_r/wrist_flex_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_r/wrist_dev_r/value. bounds: [-0.436332, 0.610865]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_r/wrist_dev_r/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_l/arm_flex_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_l/arm_add_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/acromial_l/arm_rot_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/elbow_l/elbow_flex_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radioulnar_l/pro_sup_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_l/wrist_flex_l/value. bounds: [-1.22173, 1.22173]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_l/wrist_dev_l/value. bounds: [-0.436332, 0.610865]
+[2023-12-05 23:10:27.752] [cout] [info]   /jointset/radius_hand_l/wrist_dev_l/speed. bounds: [-50, 50]
+[2023-12-05 23:10:27.752] [cout] [info] Controls: (total: 29)
+[2023-12-05 23:10:27.752] [cout] [info]   /forceset/pelvis_tx_actuator. bounds: [-10000, 10000]
+[2023-12-05 23:10:27.752] [cout] [info]   /forceset/pelvis_ty_actuator. bounds: [-10000, 10000]
+[2023-12-05 23:10:27.752] [cout] [info]   /forceset/pelvis_tz_actuator. bounds: [-10000, 10000]
+[2023-12-05 23:10:27.752] [cout] [info]   /forceset/arm_flex_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.752] [cout] [info]   /forceset/hip_rotation_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/pelvis_tilt_actuator. bounds: [-10000, 10000]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/pelvis_list_actuator. bounds: [-10000, 10000]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/pelvis_rotation_actuator. bounds: [-10000, 10000]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/elbow_flex_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/hip_adduction_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/hip_flexion_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/elbow_flex_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/hip_flexion_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/hip_adduction_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/knee_angle_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/lumbar_rotation_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/ankle_angle_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/arm_flex_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/hip_rotation_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/knee_angle_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/ankle_angle_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/lumbar_extension_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/lumbar_bending_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/arm_add_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/arm_rot_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/pro_sup_r_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/arm_add_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/arm_rot_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info]   /forceset/pro_sup_l_actuator. bounds: [-1, 1]
+[2023-12-05 23:10:27.753] [cout] [info] Parameters: none
+[2023-12-05 23:10:27.816] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.816] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.885] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.885] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.963] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:27.963] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.033] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.033] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.109] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.109] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.179] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.179] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.260] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.260] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.333] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.333] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.412] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.412] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.483] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.483] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.558] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.558] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.625] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.625] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.700] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.700] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.767] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.767] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.842] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.842] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.909] [info] ExternalForce::externalforce Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.909] [info] ExternalForce::externalforce_0 Data source being set to Run_500 03_newCOP3_v24.mot
+[2023-12-05 23:10:28.926] [info] Number of threads: 8
+[2023-12-05 23:25:46.464] [info] Set log level to Info.
+[2023-12-05 23:25:46.480] [info] ------------------------------------------------------------------------
+[2023-12-05 23:25:46.480] [info] Elapsed real time: 919 second(s) (15 minute(s), 19 second(s)).
+[2023-12-05 23:25:46.480] [info] Tue Dec  5 23:25:46 2023
+[2023-12-05 23:25:46.480] [info] MocoCasADiSolver succeeded!
+[2023-12-05 23:25:46.480] [info] ========================================================================

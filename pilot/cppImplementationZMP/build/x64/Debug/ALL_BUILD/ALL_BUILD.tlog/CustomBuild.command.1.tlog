@@ -1,0 +1,10 @@
+^C:\+GITREPOS+\ZMP-OPENSIM\PILOT\CPPIMPLEMENTATIONZMP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/+GitRepos+/zmp-opensim/pilot/cppImplementationZMP -BC:/+GitRepos+/zmp-opensim/pilot/cppImplementationZMP/build --check-stamp-file C:/+GitRepos+/zmp-opensim/pilot/cppImplementationZMP/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

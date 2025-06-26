@@ -1,0 +1,10 @@
+^C:\+GITREPOS+\ZMP-OPENSIM\PILOT\CPPIMPLEMENTATIONZMP\BUILD\CMAKEFILES\7D40D19894DDDE6D75B25487CA1C8823\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/+GitRepos+/zmp-opensim/pilot/cppImplementationZMP -BC:/+GitRepos+/zmp-opensim/pilot/cppImplementationZMP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/+GitRepos+/zmp-opensim/pilot/cppImplementationZMP/build/OpenSim_cppImplementationZMP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\+GitRepos+\zmp-opensim\pilot\cppImplementationZMP\build\CMakeFiles\7d40d19894ddde6d75b25487ca1c8823\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EF7F470E-7FD8-3A63-A303-3C540F14CD6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

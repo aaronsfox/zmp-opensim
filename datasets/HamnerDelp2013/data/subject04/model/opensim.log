@@ -1,0 +1,670 @@
+[2023-03-01 15:42:00.461] [info] Processing subject subject04_scaled...
+[2023-03-01 15:42:00.461] [info] Step 1: Loading generic model
+[2023-03-01 15:42:00.485] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:42:00.485] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:42:00.485] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:42:00.544] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:42:00.583] [info] Step 2: Scaling generic model
+[2023-03-01 15:42:00.645] [info] Loaded marker file static.trc (56 markers, 317 frames)
+[2023-03-01 15:42:00.645] [info] Measurement 'torso'
+[2023-03-01 15:42:00.645] [info] 	pair 0 (LPSH, LPSI): model = 0.412807, experimental = 0.434857
+[2023-03-01 15:42:00.645] [info] 	pair 1 (LASH, LASI): model = 0.439239, experimental = 0.495088
+[2023-03-01 15:42:00.645] [info] 	pair 2 (RPSH, RPSI): model = 0.406583, experimental = 0.445633
+[2023-03-01 15:42:00.645] [info] 	pair 3 (RASH, RASI): model = 0.433959, experimental = 0.480644
+[2023-03-01 15:42:00.645] [info] 	pair 4 (C7, RASI): model = 0.550237, experimental = 0.577902
+[2023-03-01 15:42:00.645] [info] 	pair 5 (C7, LASI): model = 0.552889, experimental = 0.586881
+[2023-03-01 15:42:00.645] [info] 	overall scale factor = 1.08266
+[2023-03-01 15:42:00.645] [info] Measurement 'pelvis_z'
+[2023-03-01 15:42:00.645] [info] 	pair 0 (LPSI, RPSI): model = 0.094638, experimental = 0.0948019
+[2023-03-01 15:42:00.646] [info] 	pair 1 (RASI, LASI): model = 0.221875, experimental = 0.259423
+[2023-03-01 15:42:00.646] [info] 	pair 2 (RHJC, LHJC): model = 0.167, experimental = 0.202699
+[2023-03-01 15:42:00.646] [info] 	overall scale factor = 1.12824
+[2023-03-01 15:42:00.646] [info] Measurement 'thigh'
+[2023-03-01 15:42:00.646] [info] 	pair 0 (LHJC, LLFC): model = 0.417598, experimental = 0.455972
+[2023-03-01 15:42:00.646] [info] 	pair 1 (LHJC, LMFC): model = 0.421415, experimental = 0.461195
+[2023-03-01 15:42:00.646] [info] 	pair 2 (RHJC, RMFC): model = 0.42161, experimental = 0.434286
+[2023-03-01 15:42:00.646] [info] 	pair 3 (RHJC, RLFC): model = 0.418068, experimental = 0.442583
+[2023-03-01 15:42:00.646] [info] 	overall scale factor = 1.06875
+[2023-03-01 15:42:00.646] [info] Measurement 'shank'
+[2023-03-01 15:42:00.646] [info] 	pair 0 (LLFC, LLMAL): model = 0.37395, experimental = 0.367105
+[2023-03-01 15:42:00.646] [info] 	pair 1 (LMFC, LMMAL): model = 0.365716, experimental = 0.345254
+[2023-03-01 15:42:00.646] [info] 	pair 2 (RLFC, RLMAL): model = 0.3732, experimental = 0.402955
+[2023-03-01 15:42:00.646] [info] 	pair 3 (RMFC, RMMAL): model = 0.365776, experimental = 0.391301
+[2023-03-01 15:42:00.646] [info] 	overall scale factor = 1.01881
+[2023-03-01 15:42:00.646] [info] Measurement 'foot'
+[2023-03-01 15:42:00.646] [info] 	pair 0 (LCAL, LMT5): model = 0.199424, experimental = 0.231578
+[2023-03-01 15:42:00.646] [info] 	pair 1 (LCAL, LTOE): model = 0.23673, experimental = 0.245303
+[2023-03-01 15:42:00.646] [info] 	pair 2 (RCAL, RTOE): model = 0.234269, experimental = 0.237716
+[2023-03-01 15:42:00.646] [info] 	pair 3 (RCAL, RMT5): model = 0.199258, experimental = 0.233658
+[2023-03-01 15:42:00.646] [info] 	overall scale factor = 1.0962
+[2023-03-01 15:42:00.646] [info] Measurement 'humerus'
+[2023-03-01 15:42:00.646] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.339543
+[2023-03-01 15:42:00.646] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.339543
+[2023-03-01 15:42:00.646] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.309181
+[2023-03-01 15:42:00.646] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.322589
+[2023-03-01 15:42:00.646] [info] 	overall scale factor = 1.00863
+[2023-03-01 15:42:00.646] [info] Measurement 'radius_ulna'
+[2023-03-01 15:42:00.646] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.273366
+[2023-03-01 15:42:00.646] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.283481
+[2023-03-01 15:42:00.646] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.281779
+[2023-03-01 15:42:00.646] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.273924
+[2023-03-01 15:42:00.646] [info] 	overall scale factor = 1.07063
+[2023-03-01 15:42:00.646] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:42:00.647] [info] 	pair 0 (RASI, RHJC): model = 0.119842, experimental = 0.124948
+[2023-03-01 15:42:00.647] [info] 	pair 1 (LASI, LHJC): model = 0.117954, experimental = 0.129293
+[2023-03-01 15:42:00.647] [info] 	overall scale factor = 1.06937
+[2023-03-01 15:42:00.647] [info] Measurement 'pelvis_X'
+[2023-03-01 15:42:00.647] [info] 	pair 0 (RASI, RPSI): model = 0.181751, experimental = 0.199651
+[2023-03-01 15:42:00.647] [info] 	pair 1 (LASI, LPSI): model = 0.182723, experimental = 0.195974
+[2023-03-01 15:42:00.647] [info] 	overall scale factor = 1.0855
+[2023-03-01 15:42:00.647] [info] Measurement 'shank width'
+[2023-03-01 15:42:00.647] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0947026, experimental = 0.0928331
+[2023-03-01 15:42:00.647] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0955115, experimental = 0.0948285
+[2023-03-01 15:42:00.647] [info] 	overall scale factor = 0.986554
+[2023-03-01 15:42:00.707] [info] Wrote scale file 'subject04_scaleSet_applied.xml' for model subject04_scaled.
+[2023-03-01 15:42:00.707] [info] Step 3: Placing markers on model
+[2023-03-01 15:42:00.750] [info] Loaded marker file static.trc (56 markers, 317 frames)
+[2023-03-01 15:42:00.751] [info] Averaged frames from time 0.73 to 3.89 in static.trc (frames 73 to 389)
+[2023-03-01 15:42:00.751] [info] Deleted 8 unused markers from model subject04_scaled.
+[2023-03-01 15:42:00.894] [info] Frame at (t = 0.73):	 total squared error = 0.00915815, marker error: RMS = 0.0169172, max = 0.0302719 (LTOE)
+[2023-03-01 15:42:00.894] [info] Moved markers in model subject04_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:42:00.924] [info] Wrote model file 'subject04_adjusted_output.mot' from model subject04_scaled.
+[2023-03-01 15:44:59.706] [info] Processing subject subject03_scaled...
+[2023-03-01 15:44:59.706] [info] Step 1: Loading generic model
+[2023-03-01 15:44:59.754] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:44:59.755] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:44:59.755] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:44:59.806] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:44:59.837] [info] Step 2: Scaling generic model
+[2023-03-01 15:44:59.949] [info] Loaded marker file static.trc (56 markers, 855 frames)
+[2023-03-01 15:44:59.949] [info] Measurement 'torso'
+[2023-03-01 15:44:59.949] [info] 	pair 0 (LPSH, LPSI): model = 0.441229, experimental = 0.44619
+[2023-03-01 15:44:59.949] [info] 	pair 1 (LASH, LASI): model = 0.446566, experimental = 0.478398
+[2023-03-01 15:44:59.949] [info] 	pair 2 (RPSH, RPSI): model = 0.441208, experimental = 0.450629
+[2023-03-01 15:44:59.949] [info] 	pair 3 (RASH, RASI): model = 0.446563, experimental = 0.458435
+[2023-03-01 15:44:59.949] [info] 	pair 4 (C7, RASI): model = 0.527919, experimental = 0.54565
+[2023-03-01 15:44:59.949] [info] 	pair 5 (C7, LASI): model = 0.528049, experimental = 0.551351
+[2023-03-01 15:44:59.949] [info] 	overall scale factor = 1.0347
+[2023-03-01 15:44:59.949] [info] Measurement 'pelvis_z'
+[2023-03-01 15:44:59.949] [info] 	pair 0 (RASI, LASI): model = 0.23282, experimental = 0.239027
+[2023-03-01 15:44:59.949] [info] 	pair 1 (RHJC, LHJC): model = 0.167, experimental = 0.206536
+[2023-03-01 15:44:59.949] [info] 	overall scale factor = 1.1317
+[2023-03-01 15:44:59.949] [info] Measurement 'thigh'
+[2023-03-01 15:44:59.949] [info] 	pair 0 (LHJC, LLFC): model = 0.406938, experimental = 0.448101
+[2023-03-01 15:44:59.949] [info] 	pair 1 (LHJC, LMFC): model = 0.418666, experimental = 0.460798
+[2023-03-01 15:44:59.949] [info] 	pair 2 (RHJC, RMFC): model = 0.41852, experimental = 0.467275
+[2023-03-01 15:44:59.949] [info] 	pair 3 (RHJC, RLFC): model = 0.407593, experimental = 0.450280
+[2023-03-01 15:44:59.949] [info] 	overall scale factor = 1.10575
+[2023-03-01 15:44:59.949] [info] Measurement 'shank'
+[2023-03-01 15:44:59.949] [info] 	pair 0 (LLFC, LLMAL): model = 0.39543, experimental = 0.431674
+[2023-03-01 15:44:59.949] [info] 	pair 1 (LMFC, LMMAL): model = 0.375083, experimental = 0.396497
+[2023-03-01 15:44:59.949] [info] 	pair 2 (RLFC, RLMAL): model = 0.394648, experimental = 0.430034
+[2023-03-01 15:44:59.949] [info] 	pair 3 (RMFC, RMMAL): model = 0.375259, experimental = 0.385801
+[2023-03-01 15:44:59.950] [info] 	overall scale factor = 1.06663
+[2023-03-01 15:44:59.950] [info] Measurement 'foot'
+[2023-03-01 15:44:59.950] [info] 	pair 0 (LCAL, LMT5): model = 0.175289, experimental = 0.190502
+[2023-03-01 15:44:59.950] [info] 	pair 1 (LCAL, LTOE): model = 0.220093, experimental = 0.227468
+[2023-03-01 15:44:59.950] [info] 	pair 2 (RCAL, RTOE): model = 0.218965, experimental = 0.227935
+[2023-03-01 15:44:59.950] [info] 	pair 3 (RCAL, RMT5): model = 0.173851, experimental = 0.186258
+[2023-03-01 15:44:59.950] [info] 	overall scale factor = 1.05816
+[2023-03-01 15:44:59.950] [info] Measurement 'humerus'
+[2023-03-01 15:44:59.950] [info] 	pair 0 (LASH, LMEL): model = 0.286764, experimental = 0.32898
+[2023-03-01 15:44:59.950] [info] 	pair 1 (LACR, LLEL): model = 0.330538, experimental = 0.363713
+[2023-03-01 15:44:59.950] [info] 	pair 2 (RPSH, RLEL): model = 0.284159, experimental = 0.33265
+[2023-03-01 15:44:59.950] [info] 	pair 3 (RASH, RMEL): model = 0.286659, experimental = 0.318889
+[2023-03-01 15:44:59.950] [info] 	overall scale factor = 1.13266
+[2023-03-01 15:44:59.950] [info] Measurement 'radius_ulna'
+[2023-03-01 15:44:59.950] [info] 	pair 0 (LLEL, LFAradius): model = 0.253018, experimental = 0.265486
+[2023-03-01 15:44:59.950] [info] 	pair 1 (LMEL, LFAulna): model = 0.250168, experimental = 0.275075
+[2023-03-01 15:44:59.950] [info] 	pair 2 (RMEL, RFAulna): model = 0.250060, experimental = 0.285318
+[2023-03-01 15:44:59.950] [info] 	pair 3 (RLEL, RFAradius): model = 0.252955, experimental = 0.278225
+[2023-03-01 15:44:59.950] [info] 	overall scale factor = 1.09743
+[2023-03-01 15:44:59.950] [info] Measurement 'pelvis_X'
+[2023-03-01 15:44:59.950] [info] 	pair 0 (RASI, RPSI): model = 0.180365, experimental = 0.187427
+[2023-03-01 15:44:59.950] [info] 	pair 1 (LASI, LPSI): model = 0.180367, experimental = 0.184407
+[2023-03-01 15:44:59.950] [info] 	overall scale factor = 1.03078
+[2023-03-01 15:44:59.950] [info] Measurement 'shank width'
+[2023-03-01 15:44:59.950] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0953582, experimental = 0.0864153
+[2023-03-01 15:44:59.950] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0953623, experimental = 0.0851657
+[2023-03-01 15:44:59.950] [info] 	overall scale factor = 0.899647
+[2023-03-01 15:45:00.017] [info] Wrote scale file 'subject03_scaleSet_applied.xml' for model subject03_scaled.
+[2023-03-01 15:45:00.017] [info] Step 3: Placing markers on model
+[2023-03-01 15:45:39.755] [info] Processing subject subject03_scaled...
+[2023-03-01 15:45:39.755] [info] Step 1: Loading generic model
+[2023-03-01 15:45:39.778] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:45:39.779] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:45:39.779] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:45:39.834] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:45:39.865] [info] Step 2: Scaling generic model
+[2023-03-01 15:45:39.962] [info] Loaded marker file static.trc (56 markers, 855 frames)
+[2023-03-01 15:45:39.962] [info] Measurement 'torso'
+[2023-03-01 15:45:39.962] [info] 	pair 0 (LPSH, LPSI): model = 0.441229, experimental = 0.44619
+[2023-03-01 15:45:39.962] [info] 	pair 1 (LASH, LASI): model = 0.446566, experimental = 0.478398
+[2023-03-01 15:45:39.962] [info] 	pair 2 (RPSH, RPSI): model = 0.441208, experimental = 0.450629
+[2023-03-01 15:45:39.962] [info] 	pair 3 (RASH, RASI): model = 0.446563, experimental = 0.458435
+[2023-03-01 15:45:39.962] [info] 	pair 4 (C7, RASI): model = 0.527919, experimental = 0.54565
+[2023-03-01 15:45:39.962] [info] 	pair 5 (C7, LASI): model = 0.528049, experimental = 0.551351
+[2023-03-01 15:45:39.962] [info] 	overall scale factor = 1.0347
+[2023-03-01 15:45:39.962] [info] Measurement 'pelvis_z'
+[2023-03-01 15:45:39.962] [info] 	pair 0 (RASI, LASI): model = 0.23282, experimental = 0.239027
+[2023-03-01 15:45:39.962] [info] 	pair 1 (RHJC, LHJC): model = 0.167, experimental = 0.206536
+[2023-03-01 15:45:39.962] [info] 	overall scale factor = 1.1317
+[2023-03-01 15:45:39.962] [info] Measurement 'thigh'
+[2023-03-01 15:45:39.962] [info] 	pair 0 (LHJC, LLFC): model = 0.406938, experimental = 0.448101
+[2023-03-01 15:45:39.962] [info] 	pair 1 (LHJC, LMFC): model = 0.418666, experimental = 0.460798
+[2023-03-01 15:45:39.962] [info] 	pair 2 (RHJC, RMFC): model = 0.41852, experimental = 0.467275
+[2023-03-01 15:45:39.962] [info] 	pair 3 (RHJC, RLFC): model = 0.407593, experimental = 0.450280
+[2023-03-01 15:45:39.962] [info] 	overall scale factor = 1.10575
+[2023-03-01 15:45:39.962] [info] Measurement 'shank'
+[2023-03-01 15:45:39.962] [info] 	pair 0 (LLFC, LLMAL): model = 0.39543, experimental = 0.431674
+[2023-03-01 15:45:39.962] [info] 	pair 1 (LMFC, LMMAL): model = 0.375083, experimental = 0.396497
+[2023-03-01 15:45:39.963] [info] 	pair 2 (RLFC, RLMAL): model = 0.394648, experimental = 0.430034
+[2023-03-01 15:45:39.963] [info] 	pair 3 (RMFC, RMMAL): model = 0.375259, experimental = 0.385801
+[2023-03-01 15:45:39.963] [info] 	overall scale factor = 1.06663
+[2023-03-01 15:45:39.963] [info] Measurement 'foot'
+[2023-03-01 15:45:39.963] [info] 	pair 0 (LCAL, LMT5): model = 0.175289, experimental = 0.190502
+[2023-03-01 15:45:39.963] [info] 	pair 1 (LCAL, LTOE): model = 0.220093, experimental = 0.227468
+[2023-03-01 15:45:39.963] [info] 	pair 2 (RCAL, RTOE): model = 0.218965, experimental = 0.227935
+[2023-03-01 15:45:39.963] [info] 	pair 3 (RCAL, RMT5): model = 0.173851, experimental = 0.186258
+[2023-03-01 15:45:39.963] [info] 	overall scale factor = 1.05816
+[2023-03-01 15:45:39.963] [info] Measurement 'humerus'
+[2023-03-01 15:45:39.963] [info] 	pair 0 (LASH, LMEL): model = 0.286764, experimental = 0.32898
+[2023-03-01 15:45:39.963] [info] 	pair 1 (LACR, LLEL): model = 0.330538, experimental = 0.363713
+[2023-03-01 15:45:39.963] [info] 	pair 2 (RPSH, RLEL): model = 0.284159, experimental = 0.33265
+[2023-03-01 15:45:39.963] [info] 	pair 3 (RASH, RMEL): model = 0.286659, experimental = 0.318889
+[2023-03-01 15:45:39.963] [info] 	overall scale factor = 1.13266
+[2023-03-01 15:45:39.963] [info] Measurement 'radius_ulna'
+[2023-03-01 15:45:39.963] [info] 	pair 0 (LLEL, LFAradius): model = 0.253018, experimental = 0.265486
+[2023-03-01 15:45:39.963] [info] 	pair 1 (LMEL, LFAulna): model = 0.250168, experimental = 0.275075
+[2023-03-01 15:45:39.963] [info] 	pair 2 (RMEL, RFAulna): model = 0.250060, experimental = 0.285318
+[2023-03-01 15:45:39.963] [info] 	pair 3 (RLEL, RFAradius): model = 0.252955, experimental = 0.278225
+[2023-03-01 15:45:39.963] [info] 	overall scale factor = 1.09743
+[2023-03-01 15:45:39.963] [info] Measurement 'pelvis_X'
+[2023-03-01 15:45:39.963] [info] 	pair 0 (RASI, RPSI): model = 0.180365, experimental = 0.187427
+[2023-03-01 15:45:39.963] [info] 	pair 1 (LASI, LPSI): model = 0.180367, experimental = 0.184407
+[2023-03-01 15:45:39.963] [info] 	overall scale factor = 1.03078
+[2023-03-01 15:45:39.963] [info] Measurement 'shank width'
+[2023-03-01 15:45:39.963] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0953582, experimental = 0.0864153
+[2023-03-01 15:45:39.963] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0953623, experimental = 0.0851657
+[2023-03-01 15:45:39.963] [info] 	overall scale factor = 0.899647
+[2023-03-01 15:45:40.025] [info] Wrote scale file 'subject03_scaleSet_applied.xml' for model subject03_scaled.
+[2023-03-01 15:45:40.025] [info] Step 3: Placing markers on model
+[2023-03-01 15:45:40.178] [info] Loaded marker file static.trc (56 markers, 855 frames)
+[2023-03-01 15:45:40.178] [info] Averaged frames from time 3.691 to 3.891 in static.trc (frames 369 to 390)
+[2023-03-01 15:45:40.178] [info] Deleted 8 unused markers from model subject03_scaled.
+[2023-03-01 15:45:40.320] [info] Frame at (t = 3.691):	 total squared error = 0.0287256, marker error: RMS = 0.0299613, max = 0.0573921 (RTOE)
+[2023-03-01 15:45:40.320] [info] Moved markers in model subject03_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:45:40.350] [info] Wrote model file 'subject03_adjusted_output.mot' from model subject03_scaled.
+[2023-03-01 15:46:33.317] [info] Processing subject subject08_scaled...
+[2023-03-01 15:46:33.317] [info] Step 1: Loading generic model
+[2023-03-01 15:46:33.374] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:46:33.374] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:46:33.374] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:46:33.428] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:46:33.461] [info] Step 2: Scaling generic model
+[2023-03-01 15:46:33.534] [info] Loaded marker file static.trc (55 markers, 516 frames)
+[2023-03-01 15:46:33.534] [info] Measurement 'torso'
+[2023-03-01 15:46:33.534] [info] 	pair 0 (LACR, LPSI): model = 0.484040, experimental = 0.506302
+[2023-03-01 15:46:33.534] [info] 	pair 1 (LACR, LASI): model = 0.516206, experimental = 0.545357
+[2023-03-01 15:46:33.534] [info] 	pair 2 (RACR, RPSI): model = 0.484039, experimental = 0.488932
+[2023-03-01 15:46:33.535] [info] 	pair 3 (RACR, RASI): model = 0.516206, experimental = 0.536948
+[2023-03-01 15:46:33.535] [info] 	overall scale factor = 1.03819
+[2023-03-01 15:46:33.535] [info] Measurement 'pelvis_z'
+[2023-03-01 15:46:33.535] [info] 	pair 0 (RHJC, LHJC): model = 0.167, experimental = 0.193656
+[2023-03-01 15:46:33.535] [info] 	overall scale factor = 1.15962
+[2023-03-01 15:46:33.535] [info] Measurement 'thigh'
+[2023-03-01 15:46:33.535] [info] 	pair 0 (LHJC, LLFC): model = 0.408777, experimental = 0.440938
+[2023-03-01 15:46:33.535] [info] 	pair 1 (LHJC, LMFC): model = 0.412596, experimental = 0.455796
+[2023-03-01 15:46:33.535] [info] 	pair 2 (RHJC, RMFC): model = 0.412795, experimental = 0.435345
+[2023-03-01 15:46:33.535] [info] 	pair 3 (RHJC, RLFC): model = 0.409240, experimental = 0.421216
+[2023-03-01 15:46:33.535] [info] 	overall scale factor = 1.06682
+[2023-03-01 15:46:33.535] [info] Measurement 'shank'
+[2023-03-01 15:46:33.535] [info] 	pair 0 (LLFC, LLMAL): model = 0.382833, experimental = 0.43726
+[2023-03-01 15:46:33.535] [info] 	pair 1 (LMFC, LMMAL): model = 0.374598, experimental = 0.410140
+[2023-03-01 15:46:33.535] [info] 	pair 2 (RLFC, RLMAL): model = 0.382083, experimental = 0.430754
+[2023-03-01 15:46:33.535] [info] 	pair 3 (RMFC, RMMAL): model = 0.374657, experimental = 0.417119
+[2023-03-01 15:46:33.535] [info] 	overall scale factor = 1.11944
+[2023-03-01 15:46:33.535] [info] Measurement 'foot'
+[2023-03-01 15:46:33.535] [info] 	pair 0 (LCAL, LMT5): model = 0.199424, experimental = 0.227159
+[2023-03-01 15:46:33.535] [info] 	pair 1 (LCAL, LTOE): model = 0.23673, experimental = 0.235672
+[2023-03-01 15:46:33.535] [info] 	pair 2 (RCAL, RTOE): model = 0.234269, experimental = 0.236935
+[2023-03-01 15:46:33.535] [info] 	pair 3 (RCAL, RMT5): model = 0.199258, experimental = 0.230349
+[2023-03-01 15:46:33.535] [info] 	overall scale factor = 1.07551
+[2023-03-01 15:46:33.535] [info] Measurement 'humerus'
+[2023-03-01 15:46:33.535] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.347785
+[2023-03-01 15:46:33.535] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.347785
+[2023-03-01 15:46:33.535] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.319596
+[2023-03-01 15:46:33.535] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.338633
+[2023-03-01 15:46:33.535] [info] 	overall scale factor = 1.04168
+[2023-03-01 15:46:33.535] [info] Measurement 'radius_ulna'
+[2023-03-01 15:46:33.535] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.269929
+[2023-03-01 15:46:33.535] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.273194
+[2023-03-01 15:46:33.535] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.279603
+[2023-03-01 15:46:33.535] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.275016
+[2023-03-01 15:46:33.536] [info] 	overall scale factor = 1.05632
+[2023-03-01 15:46:33.536] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:46:33.536] [info] 	pair 0 (LPSI, LHJC): model = 0.14319, experimental = 0.155893
+[2023-03-01 15:46:33.536] [info] 	pair 1 (RPSI, RHJC): model = 0.143188, experimental = 0.185254
+[2023-03-01 15:46:33.536] [info] 	pair 2 (RASI, RHJC): model = 0.120593, experimental = 0.101851
+[2023-03-01 15:46:33.536] [info] 	pair 3 (LASI, LHJC): model = 0.120593, experimental = 0.105282
+[2023-03-01 15:46:33.536] [info] 	overall scale factor = 1.02503
+[2023-03-01 15:46:33.536] [info] Measurement 'pelvis_X'
+[2023-03-01 15:46:33.536] [info] 	pair 0 (RASI, RPSI): model = 0.19645, experimental = 0.220025
+[2023-03-01 15:46:33.536] [info] 	pair 1 (LASI, LPSI): model = 0.196453, experimental = 0.218998
+[2023-03-01 15:46:33.536] [info] 	overall scale factor = 1.11738
+[2023-03-01 15:46:33.536] [info] Measurement 'shank width'
+[2023-03-01 15:46:33.536] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0947026, experimental = 0.0898010
+[2023-03-01 15:46:33.536] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0955115, experimental = 0.0892555
+[2023-03-01 15:46:33.536] [info] 	overall scale factor = 0.941371
+[2023-03-01 15:46:33.603] [info] Wrote scale file 'subject08_scaleSet_applied.xml' for model subject08_scaled.
+[2023-03-01 15:46:33.603] [info] Step 3: Placing markers on model
+[2023-03-01 15:46:33.679] [info] Loaded marker file static.trc (55 markers, 516 frames)
+[2023-03-01 15:46:33.679] [info] Averaged frames from time 0.04 to 5.19 in static.trc (frames 4 to 519)
+[2023-03-01 15:46:33.679] [info] Deleted 9 unused markers from model subject08_scaled.
+[2023-03-01 15:46:34.002] [info] Frame at (t = 0.04):	 total squared error = 0.014611, marker error: RMS = 0.0217099, max = 0.0533656 (LTOE)
+[2023-03-01 15:46:34.002] [info] Moved markers in model subject08_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:46:34.032] [info] Wrote model file 'subject08_adjusted_output.mot' from model subject08_scaled.
+[2023-03-01 15:46:35.175] [info] Processing subject subject10_scaled...
+[2023-03-01 15:46:35.175] [info] Step 1: Loading generic model
+[2023-03-01 15:46:35.224] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:46:35.225] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:46:35.225] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:46:35.290] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:46:35.325] [info] Step 2: Scaling generic model
+[2023-03-01 15:46:35.362] [info] Loaded marker file static.trc (56 markers, 86 frames)
+[2023-03-01 15:46:35.362] [info] Measurement 'torso'
+[2023-03-01 15:46:35.362] [info] 	pair 0 (LACR, LPSI): model = 0.486184, experimental = 0.483555
+[2023-03-01 15:46:35.362] [info] 	pair 1 (LACR, LASI): model = 0.502672, experimental = 0.511868
+[2023-03-01 15:46:35.362] [info] 	pair 2 (RACR, RPSI): model = 0.486024, experimental = 0.484962
+[2023-03-01 15:46:35.362] [info] 	pair 3 (RACR, RASI): model = 0.494708, experimental = 0.506352
+[2023-03-01 15:46:35.362] [info] 	overall scale factor = 1.00856
+[2023-03-01 15:46:35.362] [info] Measurement 'pelvis_z'
+[2023-03-01 15:46:35.362] [info] 	pair 0 (RHJC, LHJC): model = 0.167, experimental = 0.177554
+[2023-03-01 15:46:35.362] [info] 	overall scale factor = 1.0632
+[2023-03-01 15:46:35.362] [info] Measurement 'thigh'
+[2023-03-01 15:46:35.362] [info] 	pair 0 (LHJC, LLFC): model = 0.408777, experimental = 0.434003
+[2023-03-01 15:46:35.362] [info] 	pair 1 (LHJC, LMFC): model = 0.415121, experimental = 0.441636
+[2023-03-01 15:46:35.362] [info] 	pair 2 (RHJC, RMFC): model = 0.415115, experimental = 0.447662
+[2023-03-01 15:46:35.362] [info] 	pair 3 (RHJC, RLFC): model = 0.409240, experimental = 0.437558
+[2023-03-01 15:46:35.362] [info] 	overall scale factor = 1.0683
+[2023-03-01 15:46:35.362] [info] Measurement 'shank'
+[2023-03-01 15:46:35.362] [info] 	pair 0 (LLFC, LLMAL): model = 0.39367, experimental = 0.412514
+[2023-03-01 15:46:35.362] [info] 	pair 1 (LMFC, LMMAL): model = 0.372187, experimental = 0.378291
+[2023-03-01 15:46:35.362] [info] 	pair 2 (RLFC, RLMAL): model = 0.392918, experimental = 0.392303
+[2023-03-01 15:46:35.362] [info] 	pair 3 (RMFC, RMMAL): model = 0.372184, experimental = 0.358395
+[2023-03-01 15:46:35.362] [info] 	overall scale factor = 1.00641
+[2023-03-01 15:46:35.362] [info] Measurement 'foot'
+[2023-03-01 15:46:35.362] [info] 	pair 0 (LCAL, LMT5): model = 0.189312, experimental = 0.205450
+[2023-03-01 15:46:35.362] [info] 	pair 1 (LCAL, LTOE): model = 0.220508, experimental = 0.221422
+[2023-03-01 15:46:35.363] [info] 	pair 2 (RCAL, RTOE): model = 0.218063, experimental = 0.223059
+[2023-03-01 15:46:35.363] [info] 	pair 3 (RCAL, RMT5): model = 0.189138, experimental = 0.205234
+[2023-03-01 15:46:35.363] [info] 	overall scale factor = 1.04935
+[2023-03-01 15:46:35.363] [info] Measurement 'humerus'
+[2023-03-01 15:46:35.363] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.324365
+[2023-03-01 15:46:35.363] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.324365
+[2023-03-01 15:46:35.363] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.323336
+[2023-03-01 15:46:35.363] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.32877
+[2023-03-01 15:46:35.363] [info] 	overall scale factor = 1.00105
+[2023-03-01 15:46:35.363] [info] Measurement 'radius_ulna'
+[2023-03-01 15:46:35.363] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.259597
+[2023-03-01 15:46:35.363] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.253635
+[2023-03-01 15:46:35.363] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.248478
+[2023-03-01 15:46:35.363] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.24949
+[2023-03-01 15:46:35.363] [info] 	overall scale factor = 0.972967
+[2023-03-01 15:46:35.363] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:46:35.363] [info] 	pair 0 (LPSI, LHJC): model = 0.140208, experimental = 0.144309
+[2023-03-01 15:46:35.363] [info] 	pair 1 (RPSI, RHJC): model = 0.140033, experimental = 0.165759
+[2023-03-01 15:46:35.363] [info] 	pair 2 (RASI, RHJC): model = 0.128893, experimental = 0.104971
+[2023-03-01 15:46:35.363] [info] 	pair 3 (LASI, LHJC): model = 0.128529, experimental = 0.106062
+[2023-03-01 15:46:35.363] [info] 	overall scale factor = 0.963144
+[2023-03-01 15:46:35.363] [info] Measurement 'pelvis_X'
+[2023-03-01 15:46:35.363] [info] 	pair 0 (RASI, RPSI): model = 0.185971, experimental = 0.18525
+[2023-03-01 15:46:35.363] [info] 	pair 1 (LASI, LPSI): model = 0.192643, experimental = 0.182315
+[2023-03-01 15:46:35.363] [info] 	overall scale factor = 0.971257
+[2023-03-01 15:46:35.363] [info] Measurement 'shank width'
+[2023-03-01 15:46:35.363] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0958434, experimental = 0.0904299
+[2023-03-01 15:46:35.363] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0966433, experimental = 0.0790294
+[2023-03-01 15:46:35.363] [info] 	overall scale factor = 0.880631
+[2023-03-01 15:46:35.422] [info] Wrote scale file 'subject10_scaleSet_applied.xml' for model subject10_scaled.
+[2023-03-01 15:46:35.422] [info] Step 3: Placing markers on model
+[2023-03-01 15:50:32.651] [info] Processing subject subject10_scaled...
+[2023-03-01 15:50:32.651] [info] Step 1: Loading generic model
+[2023-03-01 15:50:32.675] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:50:32.675] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:50:32.675] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:50:32.728] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:50:32.760] [info] Step 2: Scaling generic model
+[2023-03-01 15:50:32.786] [info] Loaded marker file static.trc (56 markers, 86 frames)
+[2023-03-01 15:50:32.786] [info] Measurement 'torso'
+[2023-03-01 15:50:32.786] [info] 	pair 0 (LACR, LPSI): model = 0.486184, experimental = 0.478138
+[2023-03-01 15:50:32.786] [info] 	pair 1 (LACR, LASI): model = 0.502672, experimental = 0.504339
+[2023-03-01 15:50:32.786] [info] 	pair 2 (RACR, RPSI): model = 0.486024, experimental = 0.480389
+[2023-03-01 15:50:32.786] [info] 	pair 3 (RACR, RASI): model = 0.494708, experimental = 0.500218
+[2023-03-01 15:50:32.786] [info] 	overall scale factor = 0.996578
+[2023-03-01 15:50:32.786] [info] Measurement 'pelvis_z'
+[2023-03-01 15:50:32.786] [info] 	pair 0 (RHJC, LHJC): model = 0.167, experimental = 0.177554
+[2023-03-01 15:50:32.786] [info] 	overall scale factor = 1.0632
+[2023-03-01 15:50:32.786] [info] Measurement 'thigh'
+[2023-03-01 15:50:32.787] [info] 	pair 0 (LHJC, LLFC): model = 0.408777, experimental = 0.434068
+[2023-03-01 15:50:32.787] [info] 	pair 1 (LHJC, LMFC): model = 0.415121, experimental = 0.441732
+[2023-03-01 15:50:32.787] [info] 	pair 2 (RHJC, RMFC): model = 0.415115, experimental = 0.447442
+[2023-03-01 15:50:32.787] [info] 	pair 3 (RHJC, RLFC): model = 0.409240, experimental = 0.437266
+[2023-03-01 15:50:32.787] [info] 	overall scale factor = 1.06808
+[2023-03-01 15:50:32.787] [info] Measurement 'shank'
+[2023-03-01 15:50:32.787] [info] 	pair 0 (LLFC, LLMAL): model = 0.39367, experimental = 0.412458
+[2023-03-01 15:50:32.787] [info] 	pair 1 (LMFC, LMMAL): model = 0.372187, experimental = 0.378422
+[2023-03-01 15:50:32.787] [info] 	pair 2 (RLFC, RLMAL): model = 0.392918, experimental = 0.392238
+[2023-03-01 15:50:32.787] [info] 	pair 3 (RMFC, RMMAL): model = 0.372184, experimental = 0.358283
+[2023-03-01 15:50:32.787] [info] 	overall scale factor = 1.00635
+[2023-03-01 15:50:32.787] [info] Measurement 'foot'
+[2023-03-01 15:50:32.787] [info] 	pair 0 (LCAL, LMT5): model = 0.189312, experimental = 0.205567
+[2023-03-01 15:50:32.787] [info] 	pair 1 (LCAL, LTOE): model = 0.220508, experimental = 0.22154
+[2023-03-01 15:50:32.787] [info] 	pair 2 (RCAL, RTOE): model = 0.218063, experimental = 0.223172
+[2023-03-01 15:50:32.787] [info] 	pair 3 (RCAL, RMT5): model = 0.189138, experimental = 0.205379
+[2023-03-01 15:50:32.787] [info] 	overall scale factor = 1.04996
+[2023-03-01 15:50:32.787] [info] Measurement 'humerus'
+[2023-03-01 15:50:32.787] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.331017
+[2023-03-01 15:50:32.787] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.331017
+[2023-03-01 15:50:32.787] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.332457
+[2023-03-01 15:50:32.787] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.337056
+[2023-03-01 15:50:32.787] [info] 	overall scale factor = 1.0247
+[2023-03-01 15:50:32.787] [info] Measurement 'radius_ulna'
+[2023-03-01 15:50:32.787] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.260044
+[2023-03-01 15:50:32.787] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.252278
+[2023-03-01 15:50:32.787] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.246276
+[2023-03-01 15:50:32.787] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.249824
+[2023-03-01 15:50:32.787] [info] 	overall scale factor = 0.970269
+[2023-03-01 15:50:32.787] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:50:32.787] [info] 	pair 0 (LPSI, LHJC): model = 0.140208, experimental = 0.144097
+[2023-03-01 15:50:32.787] [info] 	pair 1 (RPSI, RHJC): model = 0.140033, experimental = 0.165682
+[2023-03-01 15:50:32.787] [info] 	pair 2 (RASI, RHJC): model = 0.128893, experimental = 0.104874
+[2023-03-01 15:50:32.787] [info] 	pair 3 (LASI, LHJC): model = 0.128529, experimental = 0.106116
+[2023-03-01 15:50:32.787] [info] 	overall scale factor = 0.962544
+[2023-03-01 15:50:32.787] [info] Measurement 'pelvis_X'
+[2023-03-01 15:50:32.788] [info] 	pair 0 (RASI, RPSI): model = 0.185971, experimental = 0.184893
+[2023-03-01 15:50:32.788] [info] 	pair 1 (LASI, LPSI): model = 0.192643, experimental = 0.18219
+[2023-03-01 15:50:32.788] [info] 	overall scale factor = 0.969971
+[2023-03-01 15:50:32.788] [info] Measurement 'shank width'
+[2023-03-01 15:50:32.788] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0958434, experimental = 0.0901851
+[2023-03-01 15:50:32.788] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0966433, experimental = 0.0808493
+[2023-03-01 15:50:32.788] [info] 	overall scale factor = 0.888769
+[2023-03-01 15:50:32.851] [info] Wrote scale file 'subject10_scaleSet_applied.xml' for model subject10_scaled.
+[2023-03-01 15:50:32.851] [info] Step 3: Placing markers on model
+[2023-03-01 15:50:32.863] [info] Loaded marker file static.trc (56 markers, 86 frames)
+[2023-03-01 15:50:32.863] [info] Averaged frames from time 2.88 to 2.98 in static.trc (frames 288 to 298)
+[2023-03-01 15:50:32.863] [info] Deleted 8 unused markers from model subject10_scaled.
+[2023-03-01 15:50:33.091] [info] Frame at (t = 2.88):	 total squared error = 0.0236311, marker error: RMS = 0.0276097, max = 0.0542342 (RTOE)
+[2023-03-01 15:50:33.091] [info] Moved markers in model subject10_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:50:33.124] [info] Wrote model file 'subject10_adjusted_output.mot' from model subject10_scaled.
+[2023-03-01 15:51:22.682] [info] Processing subject subject11_scaled...
+[2023-03-01 15:51:22.682] [info] Step 1: Loading generic model
+[2023-03-01 15:51:22.747] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:51:22.748] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:51:22.748] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:51:22.799] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:51:22.829] [info] Step 2: Scaling generic model
+[2023-03-01 15:51:22.881] [info] Loaded marker file static.trc (56 markers, 253 frames)
+[2023-03-01 15:51:22.881] [info] Measurement 'torso'
+[2023-03-01 15:51:22.881] [info] 	pair 0 (LACR, LPSI): model = 0.486184, experimental = 0.52258
+[2023-03-01 15:51:22.881] [info] 	pair 1 (LACR, LASI): model = 0.502672, experimental = 0.472899
+[2023-03-01 15:51:22.881] [info] 	pair 2 (RACR, RPSI): model = 0.486024, experimental = 0.514539
+[2023-03-01 15:51:22.881] [info] 	pair 3 (RACR, RASI): model = 0.494708, experimental = 0.461569
+[2023-03-01 15:51:22.881] [info] 	overall scale factor = 1.00183
+[2023-03-01 15:51:22.881] [info] Measurement 'pelvis_z'
+[2023-03-01 15:51:22.881] [info] 	pair 0 (RHJC, LHJC): model = 0.167, experimental = 0.175179
+[2023-03-01 15:51:22.881] [info] 	overall scale factor = 1.04898
+[2023-03-01 15:51:22.881] [info] Measurement 'thigh'
+[2023-03-01 15:51:22.881] [info] 	pair 0 (LHJC, LLFC): model = 0.408777, experimental = 0.452497
+[2023-03-01 15:51:22.881] [info] 	pair 1 (LHJC, LMFC): model = 0.415121, experimental = 0.450473
+[2023-03-01 15:51:22.881] [info] 	pair 2 (RHJC, RMFC): model = 0.415115, experimental = 0.448083
+[2023-03-01 15:51:22.881] [info] 	pair 3 (RHJC, RLFC): model = 0.409240, experimental = 0.44418
+[2023-03-01 15:51:22.881] [info] 	overall scale factor = 1.08923
+[2023-03-01 15:51:22.881] [info] Measurement 'shank'
+[2023-03-01 15:51:22.881] [info] 	pair 0 (LLFC, LLMAL): model = 0.39367, experimental = 0.411731
+[2023-03-01 15:51:22.881] [info] 	pair 1 (LMFC, LMMAL): model = 0.372187, experimental = 0.397566
+[2023-03-01 15:51:22.881] [info] 	pair 2 (RLFC, RLMAL): model = 0.392918, experimental = 0.411899
+[2023-03-01 15:51:22.881] [info] 	pair 3 (RMFC, RMMAL): model = 0.372184, experimental = 0.393762
+[2023-03-01 15:51:22.881] [info] 	overall scale factor = 1.05509
+[2023-03-01 15:51:22.881] [info] Measurement 'foot'
+[2023-03-01 15:51:22.881] [info] 	pair 0 (LCAL, LMT5): model = 0.189312, experimental = 0.200544
+[2023-03-01 15:51:22.881] [info] 	pair 1 (LCAL, LTOE): model = 0.220508, experimental = 0.232882
+[2023-03-01 15:51:22.881] [info] 	pair 2 (RCAL, RTOE): model = 0.218063, experimental = 0.227117
+[2023-03-01 15:51:22.881] [info] 	pair 3 (RCAL, RMT5): model = 0.189138, experimental = 0.197383
+[2023-03-01 15:51:22.882] [info] 	overall scale factor = 1.05014
+[2023-03-01 15:51:22.882] [info] Measurement 'humerus'
+[2023-03-01 15:51:22.882] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.338024
+[2023-03-01 15:51:22.882] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.338024
+[2023-03-01 15:51:22.882] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.335401
+[2023-03-01 15:51:22.882] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.340900
+[2023-03-01 15:51:22.882] [info] 	overall scale factor = 1.04069
+[2023-03-01 15:51:22.882] [info] Measurement 'radius_ulna'
+[2023-03-01 15:51:22.882] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.26723
+[2023-03-01 15:51:22.882] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.272612
+[2023-03-01 15:51:22.882] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.263040
+[2023-03-01 15:51:22.882] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.260949
+[2023-03-01 15:51:22.882] [info] 	overall scale factor = 1.02369
+[2023-03-01 15:51:22.882] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:51:22.882] [info] 	pair 0 (LPSI, LHJC): model = 0.140208, experimental = 0.145493
+[2023-03-01 15:51:22.882] [info] 	pair 1 (RPSI, RHJC): model = 0.140033, experimental = 0.153981
+[2023-03-01 15:51:22.882] [info] 	pair 2 (RASI, RHJC): model = 0.128893, experimental = 0.123337
+[2023-03-01 15:51:22.882] [info] 	pair 3 (LASI, LHJC): model = 0.128529, experimental = 0.120975
+[2023-03-01 15:51:22.882] [info] 	overall scale factor = 1.00886
+[2023-03-01 15:51:22.882] [info] Measurement 'pelvis_X'
+[2023-03-01 15:51:22.882] [info] 	pair 0 (RASI, RPSI): model = 0.185971, experimental = 0.197303
+[2023-03-01 15:51:22.882] [info] 	pair 1 (LASI, LPSI): model = 0.192643, experimental = 0.191423
+[2023-03-01 15:51:22.882] [info] 	overall scale factor = 1.0273
+[2023-03-01 15:51:22.882] [info] Measurement 'shank width'
+[2023-03-01 15:51:22.882] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0958434, experimental = 0.0936349
+[2023-03-01 15:51:22.882] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0966433, experimental = 0.0958441
+[2023-03-01 15:51:22.882] [info] 	overall scale factor = 0.984344
+[2023-03-01 15:51:22.942] [info] Wrote scale file 'subject11_scaleSet_applied.xml' for model subject11_scaled.
+[2023-03-01 15:51:22.942] [info] Step 3: Placing markers on model
+[2023-03-01 15:51:22.978] [info] Loaded marker file static.trc (56 markers, 253 frames)
+[2023-03-01 15:51:22.978] [info] Averaged frames from time 0.18 to 2.7 in static.trc (frames 18 to 270)
+[2023-03-01 15:51:22.978] [info] Deleted 8 unused markers from model subject11_scaled.
+[2023-03-01 15:51:23.103] [info] Frame at (t = 0.18):	 total squared error = 0.0172081, marker error: RMS = 0.0218633, max = 0.0458709 (LASH)
+[2023-03-01 15:51:23.103] [info] Moved markers in model subject11_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:51:23.134] [info] Wrote model file 'subject11_adjusted_output.mot' from model subject11_scaled.
+[2023-03-01 15:51:24.509] [info] Processing subject subject17_scaled...
+[2023-03-01 15:51:24.509] [info] Step 1: Loading generic model
+[2023-03-01 15:51:24.558] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:51:24.559] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:51:24.559] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:51:24.611] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:51:24.640] [info] Step 2: Scaling generic model
+[2023-03-01 15:51:24.709] [info] Loaded marker file static.trc (56 markers, 431 frames)
+[2023-03-01 15:51:24.709] [info] Measurement 'torso'
+[2023-03-01 15:51:24.709] [info] 	pair 0 (LACR, LPSI): model = 0.486184, experimental = 0.457791
+[2023-03-01 15:51:24.709] [info] 	pair 1 (LACR, LASI): model = 0.502672, experimental = 0.476015
+[2023-03-01 15:51:24.709] [info] 	pair 2 (RACR, RPSI): model = 0.486024, experimental = 0.460494
+[2023-03-01 15:51:24.709] [info] 	pair 3 (RACR, RASI): model = 0.494708, experimental = 0.483489
+[2023-03-01 15:51:24.709] [info] 	overall scale factor = 0.953341
+[2023-03-01 15:51:24.709] [info] Measurement 'thigh'
+[2023-03-01 15:51:24.709] [info] 	pair 0 (LACR, LLFC): model = 0.9789, experimental = 0.975781
+[2023-03-01 15:51:24.709] [info] 	pair 1 (LACR, LMFC): model = 0.993185, experimental = 0.99628
+[2023-03-01 15:51:24.709] [info] 	pair 2 (RACR, RMFC): model = 0.99318, experimental = 0.994735
+[2023-03-01 15:51:24.709] [info] 	pair 3 (RACR, RLFC): model = 0.979751, experimental = 0.975306
+[2023-03-01 15:51:24.709] [info] 	overall scale factor = 0.999239
+[2023-03-01 15:51:24.710] [info] Measurement 'shank'
+[2023-03-01 15:51:24.710] [info] 	pair 0 (LLFC, LLMAL): model = 0.39367, experimental = 0.399551
+[2023-03-01 15:51:24.710] [info] 	pair 1 (LMFC, LMMAL): model = 0.372187, experimental = 0.390389
+[2023-03-01 15:51:24.710] [info] 	pair 2 (RLFC, RLMAL): model = 0.392918, experimental = 0.384586
+[2023-03-01 15:51:24.710] [info] 	pair 3 (RMFC, RMMAL): model = 0.372184, experimental = 0.38888
+[2023-03-01 15:51:24.710] [info] 	overall scale factor = 1.02187
+[2023-03-01 15:51:24.710] [info] Measurement 'foot'
+[2023-03-01 15:51:24.710] [info] 	pair 0 (LCAL, LMT5): model = 0.189312, experimental = 0.208054
+[2023-03-01 15:51:24.710] [info] 	pair 1 (LCAL, LTOE): model = 0.220508, experimental = 0.207959
+[2023-03-01 15:51:24.710] [info] 	pair 2 (RCAL, RTOE): model = 0.218063, experimental = 0.210146
+[2023-03-01 15:51:24.710] [info] 	pair 3 (RCAL, RMT5): model = 0.189138, experimental = 0.204935
+[2023-03-01 15:51:24.710] [info] 	overall scale factor = 1.02233
+[2023-03-01 15:51:24.710] [info] Measurement 'humerus'
+[2023-03-01 15:51:24.710] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.312008
+[2023-03-01 15:51:24.710] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.312008
+[2023-03-01 15:51:24.710] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.292473
+[2023-03-01 15:51:24.710] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.314524
+[2023-03-01 15:51:24.710] [info] 	overall scale factor = 0.947212
+[2023-03-01 15:51:24.710] [info] Measurement 'radius_ulna'
+[2023-03-01 15:51:24.710] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.251899
+[2023-03-01 15:51:24.710] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.265378
+[2023-03-01 15:51:24.710] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.248122
+[2023-03-01 15:51:24.710] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.255777
+[2023-03-01 15:51:24.710] [info] 	overall scale factor = 0.982642
+[2023-03-01 15:51:24.710] [info] Measurement 'pelvis_X'
+[2023-03-01 15:51:24.710] [info] 	pair 0 (RASI, RPSI): model = 0.185971, experimental = 0.184227
+[2023-03-01 15:51:24.710] [info] 	pair 1 (LASI, LPSI): model = 0.192643, experimental = 0.176161
+[2023-03-01 15:51:24.710] [info] 	overall scale factor = 0.952534
+[2023-03-01 15:51:24.710] [info] Measurement 'shank width'
+[2023-03-01 15:51:24.710] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0958434, experimental = 0.086292
+[2023-03-01 15:51:24.710] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0966433, experimental = 0.0874183
+[2023-03-01 15:51:24.710] [info] 	overall scale factor = 0.902445
+[2023-03-01 15:51:24.772] [info] Wrote scale file 'subject17_scaleSet_applied.xml' for model subject17_scaled.
+[2023-03-01 15:51:24.772] [info] Step 3: Placing markers on model
+[2023-03-01 15:51:24.832] [info] Loaded marker file static.trc (56 markers, 431 frames)
+[2023-03-01 15:51:24.833] [info] Averaged frames from time 0.00833000 to 3.59167 in static.trc (frames 1 to 431)
+[2023-03-01 15:51:24.833] [info] Deleted 8 unused markers from model subject17_scaled.
+[2023-03-01 15:51:25.011] [info] Frame at (t = 0.00833000):	 total squared error = 0.032691, marker error: RMS = 0.0324738, max = 0.0644746 (RHJC)
+[2023-03-01 15:51:25.011] [info] Moved markers in model subject17_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:51:25.043] [info] Wrote model file 'subject17_adjusted_output.mot' from model subject17_scaled.
+[2023-03-01 15:51:26.246] [info] Processing subject subject19_scaled...
+[2023-03-01 15:51:26.246] [info] Step 1: Loading generic model
+[2023-03-01 15:51:26.304] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:51:26.305] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:51:26.305] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:51:26.356] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:51:26.388] [info] Step 2: Scaling generic model
+[2023-03-01 15:51:26.477] [info] Loaded marker file static.trc (56 markers, 688 frames)
+[2023-03-01 15:51:26.477] [info] Measurement 'torso'
+[2023-03-01 15:51:26.477] [info] 	pair 0 (LACR, LPSI): model = 0.486184, experimental = 0.483597
+[2023-03-01 15:51:26.477] [info] 	pair 1 (LACR, LASI): model = 0.502672, experimental = 0.526269
+[2023-03-01 15:51:26.477] [info] 	pair 2 (RACR, RPSI): model = 0.486024, experimental = 0.470275
+[2023-03-01 15:51:26.477] [info] 	pair 3 (RACR, RASI): model = 0.494708, experimental = 0.499246
+[2023-03-01 15:51:26.477] [info] 	overall scale factor = 1.00460
+[2023-03-01 15:51:26.477] [info] Measurement 'pelvis_z'
+[2023-03-01 15:51:26.477] [info] 	pair 0 (RHJC, LHJC): model = 0.167, experimental = 0.167536
+[2023-03-01 15:51:26.477] [info] 	overall scale factor = 1.00321
+[2023-03-01 15:51:26.478] [info] Measurement 'thigh'
+[2023-03-01 15:51:26.478] [info] 	pair 0 (LHJC, LLFC): model = 0.408777, experimental = 0.436549
+[2023-03-01 15:51:26.478] [info] 	pair 1 (LHJC, LMFC): model = 0.415121, experimental = 0.444669
+[2023-03-01 15:51:26.478] [info] 	pair 2 (RHJC, RMFC): model = 0.415115, experimental = 0.449525
+[2023-03-01 15:51:26.478] [info] 	pair 3 (RHJC, RLFC): model = 0.409240, experimental = 0.446366
+[2023-03-01 15:51:26.478] [info] 	overall scale factor = 1.07818
+[2023-03-01 15:51:26.478] [info] Measurement 'shank'
+[2023-03-01 15:51:26.478] [info] 	pair 0 (LLFC, LLMAL): model = 0.39367, experimental = 0.429187
+[2023-03-01 15:51:26.478] [info] 	pair 1 (LMFC, LMMAL): model = 0.372187, experimental = 0.398024
+[2023-03-01 15:51:26.478] [info] 	pair 2 (RLFC, RLMAL): model = 0.392918, experimental = 0.427009
+[2023-03-01 15:51:26.478] [info] 	pair 3 (RMFC, RMMAL): model = 0.372184, experimental = 0.401900
+[2023-03-01 15:51:26.478] [info] 	overall scale factor = 1.08156
+[2023-03-01 15:51:26.478] [info] Measurement 'foot'
+[2023-03-01 15:51:26.478] [info] 	pair 0 (LCAL, LMT5): model = 0.189312, experimental = 0.21664
+[2023-03-01 15:51:26.478] [info] 	pair 1 (LCAL, LTOE): model = 0.220508, experimental = 0.210086
+[2023-03-01 15:51:26.478] [info] 	pair 2 (RCAL, RTOE): model = 0.218063, experimental = 0.212985
+[2023-03-01 15:51:26.478] [info] 	pair 3 (RCAL, RMT5): model = 0.189138, experimental = 0.220182
+[2023-03-01 15:51:26.478] [info] 	overall scale factor = 1.05948
+[2023-03-01 15:51:26.478] [info] Measurement 'humerus'
+[2023-03-01 15:51:26.478] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.306064
+[2023-03-01 15:51:26.478] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.306064
+[2023-03-01 15:51:26.478] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.296834
+[2023-03-01 15:51:26.478] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.301299
+[2023-03-01 15:51:26.478] [info] 	overall scale factor = 0.931321
+[2023-03-01 15:51:26.478] [info] Measurement 'radius_ulna'
+[2023-03-01 15:51:26.478] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.281982
+[2023-03-01 15:51:26.478] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.286573
+[2023-03-01 15:51:26.478] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.279305
+[2023-03-01 15:51:26.478] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.281547
+[2023-03-01 15:51:26.479] [info] 	overall scale factor = 1.08676
+[2023-03-01 15:51:26.479] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:51:26.479] [info] 	pair 0 (LPSI, LHJC): model = 0.140208, experimental = 0.140699
+[2023-03-01 15:51:26.479] [info] 	pair 1 (RPSI, RHJC): model = 0.140033, experimental = 0.137428
+[2023-03-01 15:51:26.479] [info] 	pair 2 (RASI, RHJC): model = 0.128893, experimental = 0.0915353
+[2023-03-01 15:51:26.479] [info] 	pair 3 (LASI, LHJC): model = 0.128529, experimental = 0.0944871
+[2023-03-01 15:51:26.479] [info] 	overall scale factor = 0.857551
+[2023-03-01 15:51:26.479] [info] Measurement 'pelvis_X'
+[2023-03-01 15:51:26.479] [info] 	pair 0 (RASI, RPSI): model = 0.185971, experimental = 0.186029
+[2023-03-01 15:51:26.479] [info] 	pair 1 (LASI, LPSI): model = 0.192643, experimental = 0.182916
+[2023-03-01 15:51:26.479] [info] 	overall scale factor = 0.97491
+[2023-03-01 15:51:26.479] [info] Measurement 'shank width'
+[2023-03-01 15:51:26.479] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0958434, experimental = 0.0904639
+[2023-03-01 15:51:26.479] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0966433, experimental = 0.0910565
+[2023-03-01 15:51:26.479] [info] 	overall scale factor = 0.943032
+[2023-03-01 15:51:26.545] [info] Wrote scale file 'subject19_scaleSet_applied.xml' for model subject19_scaled.
+[2023-03-01 15:51:26.545] [info] Step 3: Placing markers on model
+[2023-03-01 15:51:26.643] [info] Loaded marker file static.trc (56 markers, 688 frames)
+[2023-03-01 15:51:26.643] [info] Averaged frames from time 0.41667 to 6.14167 in static.trc (frames 50 to 737)
+[2023-03-01 15:51:26.643] [info] Deleted 8 unused markers from model subject19_scaled.
+[2023-03-01 15:51:26.816] [info] Frame at (t = 0.41667):	 total squared error = 0.0607023, marker error: RMS = 0.0435539, max = 0.100389 (LTOE)
+[2023-03-01 15:51:26.816] [info] Moved markers in model subject19_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:51:26.846] [info] Wrote model file 'subject19_adjusted_output.mot' from model subject19_scaled.
+[2023-03-01 15:51:27.983] [info] Processing subject subject20_scaled...
+[2023-03-01 15:51:27.983] [info] Step 1: Loading generic model
+[2023-03-01 15:51:28.039] [info] Updating Model file from 20200 to latest format...
+[2023-03-01 15:51:28.039] [warning] Model name '3D Gait Model with Simple Arms' contains whitespace.
+[2023-03-01 15:51:28.039] [warning] It was renamed to '3DGaitModelwithSimpleArms'.
+[2023-03-01 15:51:28.091] [info] Loaded model 3DGaitModelwithSimpleArms from file genericModel.osim
+[2023-03-01 15:51:28.122] [info] Step 2: Scaling generic model
+[2023-03-01 15:51:28.201] [info] Loaded marker file static.trc (56 markers, 551 frames)
+[2023-03-01 15:51:28.201] [info] Measurement 'torso'
+[2023-03-01 15:51:28.202] [info] 	pair 0 (LACR, LPSI): model = 0.486184, experimental = 0.447007
+[2023-03-01 15:51:28.202] [info] 	pair 1 (LACR, LASI): model = 0.502672, experimental = 0.462628
+[2023-03-01 15:51:28.202] [info] 	pair 2 (RACR, RPSI): model = 0.486024, experimental = 0.451394
+[2023-03-01 15:51:28.202] [info] 	pair 3 (RACR, RASI): model = 0.494708, experimental = 0.465846
+[2023-03-01 15:51:28.202] [info] 	overall scale factor = 0.927541
+[2023-03-01 15:51:28.202] [info] Measurement 'pelvis_z'
+[2023-03-01 15:51:28.202] [info] 	pair 0 (RHJC, LHJC): model = 0.167, experimental = 0.179504
+[2023-03-01 15:51:28.202] [info] 	overall scale factor = 1.07488
+[2023-03-01 15:51:28.202] [info] Measurement 'thigh'
+[2023-03-01 15:51:28.202] [info] 	pair 0 (LASI, LLFC): model = 0.498092, experimental = 0.512823
+[2023-03-01 15:51:28.202] [info] 	pair 1 (LASI, LMFC): model = 0.510902, experimental = 0.522356
+[2023-03-01 15:51:28.202] [info] 	pair 2 (RASI, RMFC): model = 0.516484, experimental = 0.546251
+[2023-03-01 15:51:28.202] [info] 	pair 3 (RASI, RLFC): model = 0.504431, experimental = 0.509837
+[2023-03-01 15:51:28.202] [info] 	overall scale factor = 1.03009
+[2023-03-01 15:51:28.202] [info] Measurement 'shank'
+[2023-03-01 15:51:28.202] [info] 	pair 0 (LLFC, LLMAL): model = 0.39367, experimental = 0.409290
+[2023-03-01 15:51:28.202] [info] 	pair 1 (LMFC, LMMAL): model = 0.372187, experimental = 0.401927
+[2023-03-01 15:51:28.202] [info] 	pair 2 (RLFC, RLMAL): model = 0.392918, experimental = 0.402556
+[2023-03-01 15:51:28.202] [info] 	pair 3 (RMFC, RMMAL): model = 0.372184, experimental = 0.378527
+[2023-03-01 15:51:28.202] [info] 	overall scale factor = 1.04029
+[2023-03-01 15:51:28.202] [info] Measurement 'foot'
+[2023-03-01 15:51:28.202] [info] 	pair 0 (LCAL, LMT5): model = 0.189312, experimental = 0.211533
+[2023-03-01 15:51:28.202] [info] 	pair 1 (LCAL, LTOE): model = 0.220508, experimental = 0.218821
+[2023-03-01 15:51:28.202] [info] 	pair 2 (RCAL, RTOE): model = 0.218063, experimental = 0.21935
+[2023-03-01 15:51:28.202] [info] 	pair 3 (RCAL, RMT5): model = 0.189138, experimental = 0.209785
+[2023-03-01 15:51:28.202] [info] 	overall scale factor = 1.0562
+[2023-03-01 15:51:28.202] [info] Measurement 'humerus'
+[2023-03-01 15:51:28.202] [info] 	pair 0 (LACR, LMEL): model = 0.325671, experimental = 0.336063
+[2023-03-01 15:51:28.202] [info] 	pair 1 (LACR, LMEL): model = 0.325671, experimental = 0.336063
+[2023-03-01 15:51:28.203] [info] 	pair 2 (RACR, RLEL): model = 0.322311, experimental = 0.312757
+[2023-03-01 15:51:28.203] [info] 	pair 3 (RACR, RMEL): model = 0.325821, experimental = 0.330423
+[2023-03-01 15:51:28.203] [info] 	overall scale factor = 1.01207
+[2023-03-01 15:51:28.203] [info] Measurement 'radius_ulna'
+[2023-03-01 15:51:28.203] [info] 	pair 0 (LLEL, LFAradius): model = 0.261354, experimental = 0.245138
+[2023-03-01 15:51:28.203] [info] 	pair 1 (LMEL, LFAulna): model = 0.258179, experimental = 0.260222
+[2023-03-01 15:51:28.203] [info] 	pair 2 (RMEL, RFAulna): model = 0.258332, experimental = 0.263381
+[2023-03-01 15:51:28.203] [info] 	pair 3 (RLEL, RFAradius): model = 0.261429, experimental = 0.24853
+[2023-03-01 15:51:28.203] [info] 	overall scale factor = 0.979018
+[2023-03-01 15:51:28.203] [info] Measurement 'pelvis_Y'
+[2023-03-01 15:51:28.203] [info] 	pair 0 (LPSI, LHJC): model = 0.140208, experimental = 0.14131
+[2023-03-01 15:51:28.203] [info] 	pair 1 (RPSI, RHJC): model = 0.140033, experimental = 0.151571
+[2023-03-01 15:51:28.203] [info] 	pair 2 (RASI, RHJC): model = 0.128893, experimental = 0.0994881
+[2023-03-01 15:51:28.203] [info] 	pair 3 (LASI, LHJC): model = 0.128529, experimental = 0.0843244
+[2023-03-01 15:51:28.203] [info] 	overall scale factor = 0.879549
+[2023-03-01 15:51:28.203] [info] Measurement 'pelvis_X'
+[2023-03-01 15:51:28.203] [info] 	pair 0 (RASI, RPSI): model = 0.185971, experimental = 0.18911
+[2023-03-01 15:51:28.203] [info] 	pair 1 (LASI, LPSI): model = 0.192643, experimental = 0.191306
+[2023-03-01 15:51:28.203] [info] 	overall scale factor = 1.00497
+[2023-03-01 15:51:28.203] [info] Measurement 'shank width'
+[2023-03-01 15:51:28.203] [info] 	pair 0 (LLMAL, LMMAL): model = 0.0958434, experimental = 0.0853527
+[2023-03-01 15:51:28.203] [info] 	pair 1 (RLMAL, RMMAL): model = 0.0966433, experimental = 0.0868322
+[2023-03-01 15:51:28.203] [info] 	overall scale factor = 0.894513
+[2023-03-01 15:51:28.203] [info] Measurement 'torso width'
+[2023-03-01 15:51:28.203] [info] 	pair 0 (LACR, RACR): model = 0.318142, experimental = 0.374173
+[2023-03-01 15:51:28.203] [info] 	pair 1 (LASH, RASH): model = 0.236949, experimental = 0.32168
+[2023-03-01 15:51:28.203] [info] 	pair 2 (LPSH, RPSH): model = 0.296252, experimental = 0.322143
+[2023-03-01 15:51:28.203] [info] 	overall scale factor = 1.20703
+[2023-03-01 15:51:28.266] [info] Wrote scale file 'subject20_scaleSet_applied.xml' for model subject20_scaled.
+[2023-03-01 15:51:28.266] [info] Step 3: Placing markers on model
+[2023-03-01 15:51:28.345] [info] Loaded marker file static.trc (56 markers, 551 frames)
+[2023-03-01 15:51:28.345] [info] Averaged frames from time 0.00833000 to 4.59167 in static.trc (frames 1 to 551)
+[2023-03-01 15:51:28.346] [info] Deleted 8 unused markers from model subject20_scaled.
+[2023-03-01 15:51:28.532] [info] Frame at (t = 0.00833000):	 total squared error = 0.0244889, marker error: RMS = 0.0285709, max = 0.0597507 (CLAV)
+[2023-03-01 15:51:28.532] [info] Moved markers in model subject20_scaled to match locations in marker file 'static.trc'.
+[2023-03-01 15:51:28.563] [info] Wrote model file 'subject20_adjusted_output.mot' from model subject20_scaled.

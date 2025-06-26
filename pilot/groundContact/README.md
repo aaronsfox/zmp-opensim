@@ -1,0 +1,2 @@
+This pilot code attempts to identify ground contact using specific points (i.e. markers) on contact bodies using the method described by [Karčnik (2003)](https://link.springer.com/article/10.1007/BF02345310), where point to ground distance and point velocity thresholds specify when a point is in contact with the ground. It uses a walking trial from the Schreiber & Moissenet dataset included in the main part of this repository. 
+

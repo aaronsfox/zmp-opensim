@@ -571,3 +571,77 @@ misc modelcomponents: 0
 [2024-02-27 13:37:12.598] [info] Loaded model subject01_scaled from file data_run\subject01_adjusted_scaled.osim
 [2024-02-27 13:44:24.086] [info] Loaded model subject01_scaled from file data_run\subject01_adjusted_scaled.osim
 [2024-02-27 13:47:22.733] [info] Loaded model subject01_scaled from file data_run\subject01_adjusted_scaled.osim
+[2024-03-04 14:48:43.289] [info] Loaded model model from file data_walk\2014001_trackingModel.osim
+[2024-03-04 14:48:44.241] [cout] [info] 
+               MODEL: model
+         coordinates: 35
+              forces: 33
+           actuators: 33
+             muscles: 0
+            analyses: 0
+              probes: 0
+              bodies: 22
+              joints: 22
+         constraints: 2
+             markers: 56
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2024-03-04 14:48:44.241] [info] Running tool subject10_scaled...
+[2024-03-04 14:48:44.241] [info] No external loads will be applied (external loads file not specified).
+[2024-03-04 14:48:44.275] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_tilt'. Assuming default value.
+[2024-03-04 14:48:44.275] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_list'. Assuming default value.
+[2024-03-04 14:48:44.275] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_rotation'. Assuming default value.
+[2024-03-04 14:48:44.275] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_tx'. Assuming default value.
+[2024-03-04 14:48:44.275] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_ty'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pelvis_tz'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_flexion_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_adduction_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_rotation_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_flexion_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_adduction_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'hip_rotation_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'lumbar_extension'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'lumbar_bending'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'lumbar_rotation'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'knee_angle_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'knee_angle_r_beta'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'knee_angle_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'knee_angle_l_beta'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_flex_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_add_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_rot_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_flex_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_add_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'arm_rot_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'ankle_angle_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'ankle_angle_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'elbow_flex_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'elbow_flex_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pro_sup_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'pro_sup_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_flex_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_dev_r'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_flex_l'. Assuming default value.
+[2024-03-04 14:48:44.276] [info] InverseDynamicsTool: coordinate file does not contain coordinate 'wrist_dev_l'. Assuming default value.
+[2024-03-04 14:48:44.280] [info] InverseDynamicsTool: 40 time frames in 3 millisecond(s).
+[2024-03-04 14:59:41.328] [info] Loaded model model from file data_walk\2014001_trackingModel.osim
+[2024-03-04 14:59:41.342] [cout] [info] 
+               MODEL: model
+         coordinates: 35
+              forces: 33
+           actuators: 33
+             muscles: 0
+            analyses: 0
+              probes: 0
+              bodies: 22
+              joints: 22
+         constraints: 2
+             markers: 56
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2024-03-04 14:59:41.342] [info] Running tool subject10_scaled...
+[2024-03-04 14:59:41.342] [info] No external loads will be applied (external loads file not specified).
+[2024-03-04 14:59:41.366] [info] InverseDynamicsTool: 40 time frames in 10 millisecond(s).
+[2024-03-04 15:03:20.912] [info] Loaded model model from file data_walk\2014001_trackingModel.osim
